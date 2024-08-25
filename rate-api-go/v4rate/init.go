@@ -17,7 +17,7 @@ type CurrencyInfo globe.CurrencyInfoType
 
 // 从cloudflare的api获取备份的汇率 Key:all-rate-v4
 func InitDataFromCFV4() {
-	fmt.Println("从cf备份中获取数据v4,更新全局变量!!!")
+	fmt.Println("从cf备份中获取数据v4,更新全局变量!!!!")
 	url := "https://rate-back.oeoli.org/get_rate_v4"
 	client := resty.New()
 	res, err := client.R().Get(url)
