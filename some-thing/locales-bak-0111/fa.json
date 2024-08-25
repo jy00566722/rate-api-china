@@ -1,0 +1,30 @@
+{
+    "dragAndSort": "برای مرتب‌سازی، پرچم را بکشید",
+    "facebookTip":"بازخورد",
+    "messageTip":"پیام",
+    "dragAndSortTip":"بکشید و مرتب‌کنید!",
+    "languageTip":"زبان",
+    "backHomeTip":"بازگشت به خانه",
+    "settingTip":"تنظیمات",
+    "popupTip":"پنجره‌ی پاپ‌آپ",
+    "selectLanguage":"انتخاب زبان",
+    "messageList":"لیست پیام‌ها",
+    "setting":"تنظیمات",
+    "settingText1":"تعیین دقت اعشار برای تبدیل ارز.",
+    "settingText2":"حداقل ۲ و حداکثر ۶ رقم اعشار:",
+    "provideCompleteInformation":"لطفاً اطلاعات کامل ارائه دهید",
+    "QuestionsAndSuggestions":"سوالات و پیشنهادات",
+    "YourNameandContactInformation":"نام و اطلاعات تماس شما:",
+    "YourFeedbackIsVeryImportant":"بازخورد شما بسیار مهم است!",
+    "YourQuestion":"سوال شما:",
+    "OrYourSuggestion":"یا پیشنهاد شما:",
+    "FeedbackSuccessful":"بازخورد موفقیت‌آمیز",
+    "FeedbackFailedPleaseTryAgain":"بازخورد ناموفق، لطفاً دوباره تلاش کنید!",
+    "PleaseCheckYourNetwork":"لطفاً شبکه خود را بررسی کنید",
+  
+    "SelectCurrencyToAddToCalculationList":"ارز را برای افزودن به لیست محاسبات انتخاب کنید",
+    "SearchForCurrencyCountryCode":"جستجو برای ارز/کد کشور",
+    "ViewSelected":"نمایش انتخاب‌ها",
+    "ViewAll":"مشاهده همه"
+  }
+  

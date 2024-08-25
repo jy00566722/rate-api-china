@@ -1,0 +1,30 @@
+{
+    "dragAndSort": "גרור את הדגל למיון",
+    "facebookTip":"משוב",
+    "messageTip":"הודעה",
+    "dragAndSortTip":"גרור ומיין!",
+    "languageTip":"שפה",
+    "backHomeTip":"חזרה הביתה",
+    "settingTip":"הגדרות",
+    "popupTip":"חלון קופץ",
+    "selectLanguage":"בחר שפה",
+    "messageList":"רשימת הודעות",
+    "setting":"הגדרות",
+    "settingText1":"קבע דיוק עשרוני להמרת מטבע.",
+    "settingText2":"מינימום של 2 ומקסימום של 6 ספרות עשרוניות:",
+    "provideCompleteInformation":"אנא הזן מידע מלא",
+    "QuestionsAndSuggestions":"שאלות והצעות",
+    "YourNameandContactInformation":"שם ופרטי התקשרות שלך:",
+    "YourFeedbackIsVeryImportant":"המשוב שלך חשוב מאוד!",
+    "YourQuestion":"שאלתך:",
+    "OrYourSuggestion":"או, הצעתך:",
+    "FeedbackSuccessful":"המשוב נשלח בהצלחה",
+    "FeedbackFailedPleaseTryAgain":"המשוב נכשל, אנא נסה שוב!",
+    "PleaseCheckYourNetwork":"בדוק את הרשת שלך",
+  
+    "SelectCurrencyToAddToCalculationList":"בחר מטבע להוספה לרשימת החישובים",
+    "SearchForCurrencyCountryCode":"חפש מטבע/קוד מדינה",
+    "ViewSelected":"צפה בנבחרים",
+    "ViewAll":"הצג הכול"
+  }
+  

@@ -1,0 +1,30 @@
+
+{
+  "dragAndSort": "拖動旗標進行排序",
+  "facebookTip":"回饋",
+  "messageTip":"消息",
+  "dragAndSortTip":"拖動並排序！",
+  "languageTip":"語言",
+  "backHomeTip":"返回首頁",
+  "settingTip":"設置",
+  "popupTip":"彈出窗口",
+  "selectLanguage":"選擇語言",
+  "messageList":"消息列表",
+  "setting":"設定",
+  "settingText1":"為貨幣轉換設定小數精度。",
+  "settingText2":"小數點最少2位，最多6位：",
+  "provideCompleteInformation":"請提供完整資訊",
+  "QuestionsAndSuggestions":"問題與建議",
+  "YourNameandContactInformation":"您的姓名與聯繫資訊：",
+  "YourFeedbackIsVeryImportant":"您的反饋非常重要！",
+  "YourQuestion":"您的問題：",
+  "OrYourSuggestion":"或者您的建議：",
+  "FeedbackSuccessful":"反饋成功",
+  "FeedbackFailedPleaseTryAgain":"反饋失敗，請重試！",
+  "PleaseCheckYourNetwork":"請檢查您的網絡",
+
+  "SelectCurrencyToAddToCalculationList":"選擇要新增至計算列表的貨幣",
+  "SearchForCurrencyCountryCode":"搜尋貨幣/國家/代碼",
+  "ViewSelected":"查看所選",
+  "ViewAll":"查看全部"
+}

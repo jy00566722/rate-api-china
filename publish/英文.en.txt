@@ -1,0 +1,33 @@
+Introduction:
+Make currency conversion a breeze— and it's all for free! Our brand-new Chrome extension is a comprehensive currency conversion tool, designed specifically for users who frequently deal with various currencies. Whether you're traveling around the world, engaged in international trade, or simply interested in different currencies, our currency converter is your ideal companion. This extension utilizes the day's exchange rates to convert between 155 currencies and offers options in 47 languages, enabling you to effortlessly perform currency conversions wherever you are.
+
+Features:
+* Exchange Rate Update: Exchange rates are updated daily (not in real-time) to ensure you always use the latest rates for conversions.
+* Supports 155 Currencies: Includes all major global currencies and many niche currencies to meet a wide range of needs.
+* 47 Language Options: A multi-lingual interface allows users from different countries and regions to navigate with ease.
+* User-Friendly Interface: A simple, intuitive design makes operation straightforward and convenient.
+* One-click Conversion: Supports the conversion of multiple currencies simultaneously and allows you to freely add currencies.
+* Completely Free: Enjoy efficient currency conversion services without any cost.
+
+Installation Guide:
+* Visit the Chrome Web Store.
+* Type "Currency Converter" into the search box.
+* Find our extension and click "Add to Chrome."
+* Once added, you'll see the extension icon in your browser toolbar.
+* Click the icon, set your preferred languages and commonly used currencies, and start converting.
+
+Use Cases:
+* International travelers calculating expenses in different countries.
+* Multinational companies conducting financial planning and analysis.
+* Online shopping, converting product prices into local currency.
+* Financial professionals monitor exchange rate fluctuations. (This is not currently achievable, as the exchange rate is not in real-time.)
+* Educational use, helping to learn about the value of different national currencies.
+
+Support and Feedback:We are committed to providing the best user experience. If you have any questions or suggestions, please feel free to contact us through our support email. Your feedback is our motivation for continuous improvement. Click (Feedback) on the main interface to report issues and suggestions.
+
+Install our multifunctional currency converter plugin now for a fast, accurate, and easy currency conversion experience!
+
+Upcoming Improvements:
+* Support for cryptocurrencies!
+
+Privacy Policy: https://currency.oeo.li/privacy.html

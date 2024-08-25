@@ -1,0 +1,30 @@
+{
+    "dragAndSort": "Povuci zastavicu za sortiranje",
+    "facebookTip":"Povratna informacija",
+    "messageTip":"Poruka",
+    "dragAndSortTip":"Povuci i sortiraj!",
+    "languageTip":"Jezik",
+    "backHomeTip":"Nazad na početnu",
+    "settingTip":"Postavke",
+    "popupTip":"Skočni prozor",
+    "selectLanguage":"Odaberi jezik",
+    "messageList":"Popis poruka",
+    "setting":"Postavke",
+    "settingText1":"Postavi decimalnu preciznost za konverziju valute.",
+    "settingText2":"Minimalno 2, maksimalno 6 decimalnih mjesta:",
+    "provideCompleteInformation":"Molimo pružite potpune informacije",
+    "QuestionsAndSuggestions":"Pitanja i prijedlozi",
+    "YourNameandContactInformation":"Vaše ime i kontakt informacije:",
+    "YourFeedbackIsVeryImportant":"Vaša povratna informacija je vrlo važna!",
+    "YourQuestion":"Vaše pitanje:",
+    "OrYourSuggestion":"Ili vaš prijedlog:",
+    "FeedbackSuccessful":"Povratna informacija uspješno poslana",
+    "FeedbackFailedPleaseTryAgain":"Povratna informacija nije poslana, molimo pokušajte ponovno!",
+    "PleaseCheckYourNetwork":"Molimo provjerite vašu mrežu",
+  
+    "SelectCurrencyToAddToCalculationList":"Odaberite valutu za dodavanje na popis za izračun",
+    "SearchForCurrencyCountryCode":"Pretraži valutu/kod zemlje",
+    "ViewSelected":"Pregled odabranih",
+    "ViewAll":"Pogledaj sve"
+  }
+  

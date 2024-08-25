@@ -1,0 +1,30 @@
+{
+    "dragAndSort": "Seret bendera untuk mengurutkan",
+    "facebookTip":"Feedback",
+    "messageTip":"Pesan",
+    "dragAndSortTip":"Seret dan urutkan!",
+    "languageTip":"Bahasa",
+    "backHomeTip":"Kembali ke Beranda",
+    "settingTip":"Pengaturan",
+    "popupTip":"Jendela popup",
+    "selectLanguage":"Pilih Bahasa",
+    "messageList":"Daftar Pesan",
+    "setting":"Pengaturan",
+    "settingText1":"Atur presisi desimal untuk konversi mata uang.",
+    "settingText2":"Minimal 2 dan maksimal 6 tempat desimal:",
+    "provideCompleteInformation":"Mohon berikan informasi lengkap",
+    "QuestionsAndSuggestions":"Pertanyaan dan Saran",
+    "YourNameandContactInformation":"Nama dan Informasi Kontak Anda:",
+    "YourFeedbackIsVeryImportant":"Masukan Anda sangat penting!",
+    "YourQuestion":"Pertanyaan Anda:",
+    "OrYourSuggestion":"Atau Saran Anda:",
+    "FeedbackSuccessful":"Masukan Berhasil",
+    "FeedbackFailedPleaseTryAgain":"Masukan Gagal, Silakan Coba Lagi!",
+    "PleaseCheckYourNetwork":"Harap periksa jaringan Anda",
+  
+    "SelectCurrencyToAddToCalculationList":"Pilih mata uang untuk ditambahkan ke daftar perhitungan",
+    "SearchForCurrencyCountryCode":"Cari mata uang/kode negara",
+    "ViewSelected":"Lihat yang dipilih",
+    "ViewAll":"Lihat semua"
+  }
+  

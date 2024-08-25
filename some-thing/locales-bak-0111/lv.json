@@ -1,0 +1,30 @@
+{
+    "dragAndSort": "Velciet karogu, lai sakārtotu",
+    "facebookTip":"Atsauksmes",
+    "messageTip":"Ziņojums",
+    "dragAndSortTip":"Velciet un kārtojiet!",
+    "languageTip":"Valoda",
+    "backHomeTip":"Atpakaļ uz sākumlapu",
+    "settingTip":"Iestatījumi",
+    "popupTip":"Uznirstošais logs",
+    "selectLanguage":"Izvēlēties valodu",
+    "messageList":"Ziņojumu saraksts",
+    "setting":"Iestatījumi",
+    "settingText1":"Iestatiet valūtas konvertēšanas decimālo precizitāti.",
+    "settingText2":"Minimums 2 un maksimums 6 decimālie cipari:",
+    "provideCompleteInformation":"Lūdzu, sniedziet pilnu informāciju",
+    "QuestionsAndSuggestions":"Jautājumi un ieteikumi",
+    "YourNameandContactInformation":"Jūsu vārds un kontaktinformācija:",
+    "YourFeedbackIsVeryImportant":"Jūsu atsauksme ir ļoti svarīga!",
+    "YourQuestion":"Jūsu jautājums:",
+    "OrYourSuggestion":"Vai jūsu ieteikums:",
+    "FeedbackSuccessful":"Atsauksme veiksmīgi nosūtīta",
+    "FeedbackFailedPleaseTryAgain":"Atsauksme neizdevās, lūdzu, mēģiniet vēlreiz!",
+    "PleaseCheckYourNetwork":"Lūdzu, pārbaudiet savu tīklu",
+  
+    "SelectCurrencyToAddToCalculationList":"Izvēlieties valūtu, lai pievienotu to aprēķinu sarakstam",
+    "SearchForCurrencyCountryCode":"Meklēt valūtu/valsts kodu",
+    "ViewSelected":"Skatīt atlasītos",
+    "ViewAll":"Skatīt visu"
+  }
+  

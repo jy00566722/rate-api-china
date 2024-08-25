@@ -1,0 +1,30 @@
+{
+    "dragAndSort": "I-drag ang bandila para isaayos",
+    "facebookTip":"Feedback",
+    "messageTip":"Mensahe",
+    "dragAndSortTip":"I-drag at ayusin!",
+    "languageTip":"Wika",
+    "backHomeTip":"Bumalik sa Home",
+    "settingTip":"Pag-aayos",
+    "popupTip":"Popup na window",
+    "selectLanguage":"Pumili ng Wika",
+    "messageList":"Listahan ng Mensahe",
+    "setting":"Mga Setting",
+    "settingText1":"Itakda ang decimal precision para sa conversion ng pera.",
+    "settingText2":"Minimum ng 2 at maximum na 6 na decimal places:",
+    "provideCompleteInformation":"Mangyaring magbigay ng kumpletong impormasyon",
+    "QuestionsAndSuggestions":"Mga Katanungan at Mungkahi",
+    "YourNameandContactInformation":"Ang Iyong Pangalan at Impormasyon ng Kontak:",
+    "YourFeedbackIsVeryImportant":"Mahalaga ang Iyong Feedback!",
+    "YourQuestion":"Ang Iyong Katanungan:",
+    "OrYourSuggestion":"O, Ang Iyong Mungkahi:",
+    "FeedbackSuccessful":"Matagumpay ang Feedback",
+    "FeedbackFailedPleaseTryAgain":"Nabigo ang Feedback, Mangyaring Subukan Muli!",
+    "PleaseCheckYourNetwork":"Mangyaring Suriin ang Iyong Network",
+  
+    "SelectCurrencyToAddToCalculationList":"Pumili ng pera para idagdag sa listahan ng kalkulasyon",
+    "SearchForCurrencyCountryCode":"Maghanap ng pera/kodigo ng bansa",
+    "ViewSelected":"Tingnan ang mga napili",
+    "ViewAll":"Tingnan lahat"
+  }
+  

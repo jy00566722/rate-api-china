@@ -1,0 +1,31 @@
+{
+    "someKey": "এই টেক্সট হল Text. en-US!",
+    "dragAndSort": "পতাকা টেনে সাজান",
+    "facebookTip":"প্রতিক্রিয়া",
+    "messageTip":"বার্তা",
+    "dragAndSortTip":"টেনে এনে সাজাও!",
+    "languageTip":"ভাষা",
+    "backHomeTip":"হোমে ফিরে আসুন",
+    "settingTip":"সেটিং",
+    "popupTip":"পপ-আপ উইন্ডো",
+    "selectLanguage":"ভাষা নির্বাচন করুন",
+    "messageList":"বার্তা তালিকা",
+    "setting":"সেটিং",
+    "settingText1":"মুদ্রা রূপান্তরের জন্য দশমিক নির্ভুলতা সেট করুন।",
+    "settingText2":"সর্বনিম্ন 2 এবং সর্বোচ্চ 6 দশমিক স্থান:",
+    "provideCompleteInformation":"দয়া করে সম্পূর্ণ তথ্য প্রদান করুন",
+    "QuestionsAndSuggestions":"প্রশ্ন এবং পরামর্শ",
+    "YourNameandContactInformation":"আপনার নাম এবং যোগাযোগের তথ্য:",
+    "YourFeedbackIsVeryImportant":"আপনার প্রতিক্রিয়া খুব গুরুত্বপূর্ণ!",
+    "YourQuestion":"আপনার প্রশ্ন:",
+    "OrYourSuggestion":"অথবা, আপনার পরামর্শ:",
+    "FeedbackSuccessful":"মতামত সফল",
+    "FeedbackFailedPleaseTryAgain":"মতামত ব্যর্থ হল, আবার চেষ্টা করুন!",
+    "PleaseCheckYourNetwork":"দয়া করে আপনার নেটওয়ার্ক চেক করুন",
+  
+    "SelectCurrencyToAddToCalculationList":"গণনা তালিকায় যোগ করার জন্য মুদ্রা নির্বাচন করুন",
+    "SearchForCurrencyCountryCode":"মুদ্রা/দেশ/কোড অনুসন্ধান করুন",
+    "ViewSelected":"নির্বাচিত দেখুন",
+    "ViewAll":"সব দেখুন"
+  }
+  

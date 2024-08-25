@@ -1,0 +1,30 @@
+{
+    "dragAndSort": "ಧ್ವಜವನ್ನು ಎಳೆದು ವಿಂಗಡಿಸಿ",
+    "facebookTip":"ಪ್ರತಿಕ್ರಿಯೆ",
+    "messageTip":"ಸಂದೇಶ",
+    "dragAndSortTip":"ಎಳೆಯಿರಿ ಮತ್ತು ವಿಂಗಡಿಸಿ!",
+    "languageTip":"ಭಾಷೆ",
+    "backHomeTip":"ಮುಖಪುಟಕ್ಕೆ ಹಿಂದಿರುಗಿ",
+    "settingTip":"ಸಂಯೋಜನೆ",
+    "popupTip":"ಪಾಪ್‌ಅಪ್ ವಿಂಡೋ",
+    "selectLanguage":"ಭಾಷೆ ಆರಿಸಿ",
+    "messageList":"ಸಂದೇಶ ಪಟ್ಟಿ",
+    "setting":"ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+    "settingText1":"ಕರೆನ್ಸಿ ಪರಿವರ್ತನೆಗಾಗಿ ದಶಮಾಂಶ ನಿಖರತೆ ಹೊಂದಿಸಿ.",
+    "settingText2":"ಕನಿಷ್ಠ 2 ಮತ್ತು ಗರಿಷ್ಠ 6 ದಶಮಾಂಶ ಸ್ಥಾನಗಳು:",
+    "provideCompleteInformation":"ದಯವಿಟ್ಟು ಪೂರ್ಣ ಮಾಹಿತಿ ಒದಗಿಸಿ",
+    "QuestionsAndSuggestions":"ಪ್ರಶ್ನೆಗಳು ಮತ್ತು ಸಲಹೆಗಳು",
+    "YourNameandContactInformation":"ನಿಮ್ಮ ಹೆಸರು ಮತ್ತು ಸಂಪರ್ಕ ಮಾಹಿತಿ:",
+    "YourFeedbackIsVeryImportant":"ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆ ತುಂಬಾ ಮುಖ್ಯವಾಗಿದೆ!",
+    "YourQuestion":"ನಿಮ್ಮ ಪ್ರಶ್ನೆ:",
+    "OrYourSuggestion":"ಅಥವಾ, ನಿಮ್ಮ ಸಲಹೆ:",
+    "FeedbackSuccessful":"ಪ್ರತಿಕ್ರಿಯೆ ಯಶಸ್ವಿ",
+    "FeedbackFailedPleaseTryAgain":"ಪ್ರತಿಕ್ರಿಯೆ ವಿಫಲವಾಗಿದೆ, ಪುನಃ ಪ್ರಯತ್ನಿಸಿ",
+    "PleaseCheckYourNetwork":"ದಯವಿಟ್ಟು ನಿಮ್ಮ ನೆಟ್ವರ್ಕ್ ಪರಿಶೀಲಿಸಿ",
+  
+    "SelectCurrencyToAddToCalculationList":"ಲೆಕ್ಕಾಚಾರ ಪಟ್ಟಿಗೆ ಸೇರಿಸಲು ಕರೆನ್ಸಿ ಆಯ್ಕೆಮಾಡಿ",
+    "SearchForCurrencyCountryCode":"ಕರೆನ್ಸಿ/ದೇಶದ ಕೋಡ್ ಹುಡುಕಿ",
+    "ViewSelected":"ಆರಿಸಿದವನ್ನು ನೋಡಿ",
+    "ViewAll":"ಎಲ್ಲವನ್ನು ನೋಡಿ"
+  }
+  

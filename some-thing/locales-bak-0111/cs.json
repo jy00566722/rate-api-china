@@ -1,0 +1,30 @@
+{
+    "dragAndSort": "Přetáhněte vlajku pro řazení",
+    "facebookTip": "Zpětná vazba",
+    "messageTip": "Zpráva",
+    "dragAndSortTip": "Přetahujte a řaďte!",
+    "languageTip": "Jazyk",
+    "backHomeTip": "Zpět domů",
+    "settingTip": "Nastavení",
+    "popupTip": "Vyskakovací okno",
+    "selectLanguage": "Vyberte jazyk",
+    "messageList": "Seznam zpráv",
+    "setting": "Nastavení",
+    "settingText1": "Nastavte desetinná místa pro převod měny.",
+    "settingText2": "Minimálně 2 a maximálně 6 desetinných míst:",
+    "provideCompleteInformation": "Poskytněte úplné informace",
+    "QuestionsAndSuggestions": "Otázky a návrhy",
+    "YourNameandContactInformation": "Vaše jméno a kontaktní informace:",
+    "YourFeedbackIsVeryImportant": "Váš názor je velmi důležitý!",
+    "YourQuestion": "Vaše otázka:",
+    "OrYourSuggestion": "Nebo váš návrh:",
+    "FeedbackSuccessful": "Zpětná vazba úspěšná",
+    "FeedbackFailedPleaseTryAgain": "Zpětná vazba selhala, zkuste to prosím znovu!",
+    "PleaseCheckYourNetwork": "Zkontrolujte prosím vaši síť",
+  
+    "SelectCurrencyToAddToCalculationList": "Vyberte měnu pro přidání do seznamu výpočtů",
+    "SearchForCurrencyCountryCode": "Vyhledejte měnu / kód země",
+    "ViewSelected": "Zobrazit vybrané",
+    "ViewAll": "Zobrazit vše"
+  }
+  

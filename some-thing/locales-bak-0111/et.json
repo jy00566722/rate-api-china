@@ -1,0 +1,30 @@
+{
+    "dragAndSort": "Lohista lippu ümber sorteerimiseks",
+    "facebookTip":"Tagasiside",
+    "messageTip":"Sõnum",
+    "dragAndSortTip":"Lohista ja sorteeri!",
+    "languageTip":"Keel",
+    "backHomeTip":"Tagasi avalehele",
+    "settingTip":"Seadistus",
+    "popupTip":"Hüpikaken",
+    "selectLanguage":"Vali keel",
+    "messageList":"Sõnumite loetelu",
+    "setting":"Seaded",
+    "settingText1":"Määra valuutakonversiooni täpsuse kümnendkohad.",
+    "settingText2":"Vähemalt 2 ja maksimaalselt 6 kümnendkohta:",
+    "provideCompleteInformation":"Palun esitage täielik teave",
+    "QuestionsAndSuggestions":"Küsimused ja ettepanekud",
+    "YourNameandContactInformation":"Teie nimi ja kontaktteave:",
+    "YourFeedbackIsVeryImportant":"Teie tagasiside on väga oluline!",
+    "YourQuestion":"Teie küsimus:",
+    "OrYourSuggestion":"Või teie ettepanek:",
+    "FeedbackSuccessful":"Tagasiside edukas",
+    "FeedbackFailedPleaseTryAgain":"Tagasiside ebaõnnestus, palun proovige uuesti!",
+    "PleaseCheckYourNetwork":"Palun kontrollige oma võrguühendust",
+  
+    "SelectCurrencyToAddToCalculationList":"Vali valuuta lisamiseks arvutuste loendisse",
+    "SearchForCurrencyCountryCode":"Otsi valuuta/riigi/koodi järgi",
+    "ViewSelected":"Vaata valitud",
+    "ViewAll":"Vaata kõiki"
+  }
+  

@@ -1,0 +1,30 @@
+{
+    "dragAndSort": "Dra flagget for å sortere",
+    "facebookTip": "Tilbakemelding",
+    "messageTip": "Melding",
+    "dragAndSortTip": "Dra og sorter!",
+    "languageTip": "Språk",
+    "backHomeTip": "Tilbake hjem",
+    "settingTip": "Innstilling",
+    "popupTip": "Popup-vindu",
+    "selectLanguage": "Velg språk",
+    "messageList": "Meldingsliste",
+    "setting": "Innstilling",
+    "settingText1": "Angi desimalpresisjon for valutaomregning.",
+    "settingText2": "Minimum 2 og maksimum 6 desimaler:",
+    "provideCompleteInformation": "Vennligst oppgi komplett informasjon",
+    "QuestionsAndSuggestions": "Spørsmål og forslag",
+    "YourNameandContactInformation": "Ditt navn og kontaktinformasjon:",
+    "YourFeedbackIsVeryImportant": "Din tilbakemelding er svært viktig!",
+    "YourQuestion": "Ditt spørsmål:",
+    "OrYourSuggestion": "Eller ditt forslag:",
+    "FeedbackSuccessful": "Tilbakemelding vellykket",
+    "FeedbackFailedPleaseTryAgain": "Tilbakemelding mislyktes, prøv igjen!",
+    "PleaseCheckYourNetwork": "Vennligst sjekk nettverket ditt",
+  
+    "SelectCurrencyToAddToCalculationList": "Velg valuta å legge til i beregningslisten",
+    "SearchForCurrencyCountryCode": "Søk etter valuta/land/kode",
+    "ViewSelected": "Vis valgte",
+    "ViewAll": "Vis alle"
+  }
+  

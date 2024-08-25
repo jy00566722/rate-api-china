@@ -1,0 +1,15 @@
+###
+POST http://127.0.0.1:8001/v2/error
+Content-Type: application/json
+
+{
+    "ip": "2.2.2.2",
+    "ua": "chrome",
+    "error_info":"fefwefjj这是一个真的啊"
+}
+
+###
+GET http://127.0.0.1:8000/girl11 HTTP/1.1
+
+###
+GET http://api.k780.com?app=finance.rate&scur=CNY&tcur=USD&appkey=38501&sign=b4478632262a03a194590a0e555a6914

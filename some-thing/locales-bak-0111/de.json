@@ -1,0 +1,31 @@
+{
+    "dragAndSort": "Ziehen Sie die Flagge, um zu sortieren",
+    "facebookTip": "Feedback",
+    "messageTip": "Nachricht",
+    "dragAndSortTip": "Ziehen und sortieren!",
+    "languageTip": "Sprache",
+    "backHomeTip": "Zurück nach Hause",
+    "settingTip": "Einstellung",
+    "popupTip": "Popup-Fenster",
+    "selectLanguage": "Sprache wählen",
+    "messageList": "Nachrichtenliste",
+    "setting": "Einstellung",
+
+    "settingText1": "Legen Sie die Dezimalgenauigkeit für die Währungsumrechnung fest.",
+    "settingText2": "Mindestens 2 und maximal 6 Dezimalstellen:",
+    "provideCompleteInformation": "Bitte geben Sie vollständige Informationen an.",
+    "QuestionsAndSuggestions": "Fragen und Vorschläge",
+    "YourNameandContactInformation": "Ihr Name und Kontaktinformationen:",
+    "YourFeedbackIsVeryImportant": "Ihr Feedback ist sehr wichtig!",
+    "YourQuestion": "Ihre Frage:",
+    "OrYourSuggestion": "Oder Ihr Vorschlag:",
+    "FeedbackSuccessful": "Feedback erfolgreich",
+    "FeedbackFailedPleaseTryAgain": "Feedback fehlgeschlagen, bitte versuchen Sie es erneut!",
+    "PleaseCheckYourNetwork": "Bitte überprüfen Sie Ihr Netzwerk",
+    
+    "SelectCurrencyToAddToCalculationList": "Wählen Sie eine Währung aus, um sie zur Berechnungsliste hinzuzufügen",
+    "SearchForCurrencyCountryCode": "Suche nach Währung/Ländercode",
+    "ViewSelected": "Ausgewähltes anzeigen",
+    "ViewAll": "Alle anzeigen"
+      }
+      

@@ -1,0 +1,30 @@
+{
+    "dragAndSort": "깃발을 드래그하여 정렬하십시오",
+    "facebookTip":"피드백",
+    "messageTip":"메시지",
+    "dragAndSortTip":"드래그하여 정렬!",
+    "languageTip":"언어",
+    "backHomeTip":"홈으로 돌아가기",
+    "settingTip":"설정",
+    "popupTip":"팝업 창",
+    "selectLanguage":"언어 선택",
+    "messageList":"메시지 목록",
+    "setting":"설정",
+    "settingText1":"화폐 변환을 위한 소수점 정밀도 설정.",
+    "settingText2":"소수점 이하 최소 2자리에서 최대 6자리:",
+    "provideCompleteInformation":"완전한 정보를 제공해주십시오",
+    "QuestionsAndSuggestions":"질문 및 제안",
+    "YourNameandContactInformation":"귀하의 이름 및 연락처 정보:",
+    "YourFeedbackIsVeryImportant":"귀하의 피드백은 매우 중요합니다!",
+    "YourQuestion":"귀하의 질문:",
+    "OrYourSuggestion":"또는 귀하의 제안:",
+    "FeedbackSuccessful":"피드백이 성공적으로 전송되었습니다",
+    "FeedbackFailedPleaseTryAgain":"피드백 전송에 실패했습니다. 다시 시도해주십시오!",
+    "PleaseCheckYourNetwork":"네트워크를 확인해주십시오",
+  
+    "SelectCurrencyToAddToCalculationList":"계산 목록에 추가할 통화를 선택하십시오",
+    "SearchForCurrencyCountryCode":"통화/국가 코드 검색",
+    "ViewSelected":"선택된 항목 보기",
+    "ViewAll":"모두 보기"
+  }
+  

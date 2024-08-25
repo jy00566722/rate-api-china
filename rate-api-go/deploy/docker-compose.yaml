@@ -1,0 +1,29 @@
+version: '3.1'
+
+services:
+  #rate-后端go-api
+  rate-api:
+    build: ../ #Dockerfile的目录
+    container_name: rate-api-docker
+    restart: always
+    environment:
+      - DEBUG=false
+      - LOG_LEVEL=info
+      - CONFIG_FILE=configMihu.json
+      - mongodbDns=mongodb://root:aabbcc1234@rate-mongo:27017/
+    depends_on:
+      - rate-mongo
+    ports:
+      - "8087:8001"
+    volumes:
+      - ./conf/configMihu.json:/configMihu.json
+
+  rate-mongo:
+    image: mongo:6.0.13-jammy
+    container_name: mongo-api-docker
+    restart: always
+    ports:
+      - "27018:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: aabbcc1234

@@ -1,0 +1,30 @@
+{
+    "dragAndSort": "Húzza az ikont a rendezéshez",
+    "facebookTip":"Visszajelzés",
+    "messageTip":"Üzenet",
+    "dragAndSortTip":"Húzz és rendezz!",
+    "languageTip":"Nyelv",
+    "backHomeTip":"Vissza a főoldalra",
+    "settingTip":"Beállítás",
+    "popupTip":"Felugró ablak",
+    "selectLanguage":"Nyelv kiválasztása",
+    "messageList":"Üzenetlista",
+    "setting":"Beállítások",
+    "settingText1":"Állítsa be a pénznem átváltás tizedes pontosságát.",
+    "settingText2":"Minimum 2, maximum 6 tizedesjegy:",
+    "provideCompleteInformation":"Kérem, adjon meg teljes információt",
+    "QuestionsAndSuggestions":"Kérdések és javaslatok",
+    "YourNameandContactInformation":"Az Ön neve és elérhetőségei:",
+    "YourFeedbackIsVeryImportant":"Visszajelzése nagyon fontos számunkra!",
+    "YourQuestion":"Az Ön kérdése:",
+    "OrYourSuggestion":"Vagy az Ön javaslata:",
+    "FeedbackSuccessful":"Visszajelzés sikeres",
+    "FeedbackFailedPleaseTryAgain":"A visszajelzés sikertelen, próbálkozzon újra!",
+    "PleaseCheckYourNetwork":"Kérjük, ellenőrizze hálózati kapcsolatát",
+  
+    "SelectCurrencyToAddToCalculationList":"Válassza ki a számítási listához hozzáadandó valutát",
+    "SearchForCurrencyCountryCode":"Keressen valuta/országkód szerint",
+    "ViewSelected":"Kiválasztottak megtekintése",
+    "ViewAll":"Összes megtekintése"
+  }
+  

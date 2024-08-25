@@ -1,0 +1,30 @@
+{
+    "dragAndSort": "Sleep de vlag om te sorteren",
+    "facebookTip": "Feedback",
+    "messageTip": "Bericht",
+    "dragAndSortTip": "Sleep en sorteern!",
+    "languageTip": "Taal",
+    "backHomeTip": "Terug naar Start",
+    "settingTip": "Instelling",
+    "popupTip": "Popupvenster",
+    "selectLanguage": "Selecteer Taal",
+    "messageList": "Berichtenlijst",
+    "setting": "Instelling",
+    "settingText1": "Stel de decimale precisie in voor valutaomrekening.",
+    "settingText2": "Minimaal 2 en maximaal 6 decimalen:",
+    "provideCompleteInformation": "Gelieve volledige informatie te verschaffen",
+    "QuestionsAndSuggestions": "Vragen en Suggesties",
+    "YourNameandContactInformation": "Uw naam en contactinformatie:",
+    "YourFeedbackIsVeryImportant": "Uw feedback is erg belangrijk!",
+    "YourQuestion": "Uw Vraag:",
+    "OrYourSuggestion": "Of, Uw Suggestie:",
+    "FeedbackSuccessful": "Feedback Succesvol",
+    "FeedbackFailedPleaseTryAgain": "Feedback Mislukt, Probeer het Opnieuw!",
+    "PleaseCheckYourNetwork": "Controleer uw netwerk",
+  
+    "SelectCurrencyToAddToCalculationList": "Selecteer valuta om toe te voegen aan de berekeningslijst",
+    "SearchForCurrencyCountryCode": "Zoek naar valuta/land/code",
+    "ViewSelected": "Bekijk geselecteerd",
+    "ViewAll": "Bekijk alle"
+  }
+  

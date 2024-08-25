@@ -1,0 +1,30 @@
+{
+    "dragAndSort": "Vilkite vėliavėlę, kad išrikiuotumėte",
+    "facebookTip":"Atsiliepimai",
+    "messageTip":"Žinutė",
+    "dragAndSortTip":"Vilkite ir rūšiuokite!",
+    "languageTip":"Kalba",
+    "backHomeTip":"Grįžti į pradžios puslapį",
+    "settingTip":"Nustatymai",
+    "popupTip":"Iškylantis langas",
+    "selectLanguage":"Pasirinkite kalbą",
+    "messageList":"Žinučių sąrašas",
+    "setting":"Nustatymai",
+    "settingText1":"Nustatykite valiutos konvertavimo dešimtainę tikslumą.",
+    "settingText2":"Mažiausiai 2, daugiausiai 6 dešimtainės vietos:",
+    "provideCompleteInformation":"Prašome pateikti pilną informaciją",
+    "QuestionsAndSuggestions":"Klausimai ir pasiūlymai",
+    "YourNameandContactInformation":"Jūsų vardas ir kontaktinė informacija:",
+    "YourFeedbackIsVeryImportant":"Jūsų atsiliepimas yra labai svarbus!",
+    "YourQuestion":"Jūsų klausimas:",
+    "OrYourSuggestion":"Arba Jūsų pasiūlymas:",
+    "FeedbackSuccessful":"Atsiliepimas sėkmingai išsiųstas",
+    "FeedbackFailedPleaseTryAgain":"Atsiliepimo nepavyko išsiųsti, bandykite dar kartą!",
+    "PleaseCheckYourNetwork":"Prašome patikrinti jūsų tinklą",
+  
+    "SelectCurrencyToAddToCalculationList":"Pasirinkite valiutą pridėti į skaičiavimo sąrašą",
+    "SearchForCurrencyCountryCode":"Ieškoti valiutą/šalies kodą",
+    "ViewSelected":"Peržiūrėti pasirinktus",
+    "ViewAll":"Peržiūrėti visus"
+  }
+  

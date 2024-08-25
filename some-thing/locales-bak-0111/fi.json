@@ -1,0 +1,30 @@
+{
+    "dragAndSort": "Vedä lippua lajitellaksesi",
+    "facebookTip":"Palaute",
+    "messageTip":"Viesti",
+    "dragAndSortTip":"Vedä ja lajittele!",
+    "languageTip":"Kieli",
+    "backHomeTip":"Takaisin kotiin",
+    "settingTip":"Asetus",
+    "popupTip":"Ponnahdusikkuna",
+    "selectLanguage":"Valitse kieli",
+    "messageList":"Viestilista",
+    "setting":"Asetukset",
+    "settingText1":"Aseta valuutanvaihdon desimaalitarkkuus.",
+    "settingText2":"Vähintään 2 ja enintään 6 desimaalia:",
+    "provideCompleteInformation":"Anna täydelliset tiedot",
+    "QuestionsAndSuggestions":"Kysymykset ja ehdotukset",
+    "YourNameandContactInformation":"Nimesi ja yhteystietosi:",
+    "YourFeedbackIsVeryImportant":"Palaute on meille tärkeää!",
+    "YourQuestion":"Kysymyksesi:",
+    "OrYourSuggestion":"Tai ehdotuksesi:",
+    "FeedbackSuccessful":"Palaute lähetetty onnistuneesti",
+    "FeedbackFailedPleaseTryAgain":"Palaute epäonnistui, yritä uudelleen!",
+    "PleaseCheckYourNetwork":"Tarkista verkkoyhteytesi",
+  
+    "SelectCurrencyToAddToCalculationList":"Valitse listalle lisättävä valuutta",
+    "SearchForCurrencyCountryCode":"Etsi valuuttaa/maakoodia",
+    "ViewSelected":"Näytä valitut",
+    "ViewAll":"Näytä kaikki"
+  }
+  

@@ -1,0 +1,1479 @@
+{
+    "AED": {
+        "name": "AED - 阿联酋迪拉姆",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "د.إ",
+        "tcur": "AED",
+        "update": "2023-12-26 12:58:01"
+    },
+    "AFN": {
+        "name": "AFN - 阿富汗尼",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "؋",
+        "tcur": "AFN",
+        "update": "2023-12-26 12:58:01"
+    },
+    "AMD": {
+        "name": "AMD - 亚美尼亚德拉姆",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "֏",
+        "tcur": "AMD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "ANG": {
+        "name": "ANG - 荷属安的列斯盾",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "NAƒ",
+        "tcur": "ANG",
+        "update": "2023-12-26 12:58:01"
+    },
+    "AOA": {
+        "name": "AOA - 安哥拉宽扎",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "Kz",
+        "tcur": "AOA",
+        "update": "2023-12-26 12:58:01"
+    },
+    "ARS": {
+        "name": "ARS - 阿根廷比索",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "$",
+        "tcur": "ARS",
+        "update": "2023-12-26 12:58:01"
+    },
+    "AUD": {
+        "name": "AUD - 澳大利亚元",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "$",
+        "tcur": "AUD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "AWG": {
+        "name": "AWG - 阿鲁巴弗罗林",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "Afl.",
+        "tcur": "AWG",
+        "update": "2023-12-26 12:58:01"
+    },
+    "AZN": {
+        "name": "AZN - 阿塞拜疆马纳特",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "₼",
+        "tcur": "AZN",
+        "update": "2023-12-26 12:58:01"
+    },
+    "BAM": {
+        "name": "BAM - 可兑换马克",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "KM",
+        "tcur": "BAM",
+        "update": "2023-12-26 12:58:01"
+    },
+    "BBD": {
+        "name": "BBD - 巴巴多斯元",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "$",
+        "tcur": "BBD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "BDT": {
+        "name": "BDT - 孟加拉塔卡",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "৳",
+        "tcur": "BDT",
+        "update": "2023-12-26 12:58:01"
+    },
+    "BGN": {
+        "name": "BGN - 保加利亚列弗",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "лв",
+        "tcur": "BGN",
+        "update": "2023-12-26 12:58:01"
+    },
+    "BIF": {
+        "name": "BIF - 布隆迪法郎",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "Fr",
+        "tcur": "BIF",
+        "update": "2023-12-26 12:58:01"
+    },
+    "BND": {
+        "name": "BND - 文莱令吉",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "B$",
+        "tcur": "BND",
+        "update": "2023-12-26 12:58:01"
+    },
+    "BOB": {
+        "name": "BOB - 玻利维亚诺",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "Bs.",
+        "tcur": "BOB",
+        "update": "2023-12-26 12:58:01"
+    },
+    "BRL": {
+        "name": "BRL - 巴西雷亚尔",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "R$",
+        "tcur": "BRL",
+        "update": "2023-12-26 12:58:01"
+    },
+    "BSD": {
+        "name": "BSD - 巴哈马元",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "$",
+        "tcur": "BSD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "BTN": {
+        "name": "BTN - 不丹努尔特鲁姆",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "Nu.",
+        "tcur": "BTN",
+        "update": "2023-12-26 12:58:01"
+    },
+    "BWP": {
+        "name": "BWP - 博茨瓦纳普拉",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "P",
+        "tcur": "BWP",
+        "update": "2023-12-26 12:58:01"
+    },
+    "BYN": {
+        "name": "BYN - 白俄罗斯卢布",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "Br",
+        "tcur": "BYN",
+        "update": "2023-12-26 12:58:01"
+    },
+    "BZD": {
+        "name": "BZD - 伯利兹元",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "BZ$",
+        "tcur": "BZD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "CAD": {
+        "name": "CAD - 加拿大元",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "$",
+        "tcur": "CAD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "CDF": {
+        "name": "CDF - 刚果法郎",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "FC",
+        "tcur": "CDF",
+        "update": "2023-12-26 12:58:01"
+    },
+    "CHF": {
+        "name": "CHF - 瑞士法郎",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "₣",
+        "tcur": "CHF",
+        "update": "2023-12-26 12:58:01"
+    },
+    "CLP": {
+        "name": "CLP - 智利比索",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "$",
+        "tcur": "CLP",
+        "update": "2023-12-26 12:58:01"
+    },
+    "CLF": {
+        "name": "CLF - 智利单位货币",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "",
+        "tcur": "CLP",
+        "update": "2023-12-26 12:58:01"
+    },
+    "CNY": {
+        "name": "CNY - 人民币",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "¥",
+        "tcur": "CNY",
+        "update": "2023-12-26 12:58:01"
+    },
+    "COP": {
+        "name": "COP - 哥伦比亚比索",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "$",
+        "tcur": "COP",
+        "update": "2023-12-26 12:58:01"
+    },
+    "CRC": {
+        "name": "CRC - 哥斯达黎加科朗",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "₡",
+        "tcur": "CRC",
+        "update": "2023-12-26 12:58:01"
+    },
+    "CUP": {
+        "name": "CUP - 古巴比索",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "$",
+        "tcur": "CUP",
+        "update": "2023-12-26 12:58:01"
+    },
+    "CVE": {
+        "name": "CVE - 佛得角埃斯库多",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "$",
+        "tcur": "CVE",
+        "update": "2023-12-26 12:58:01"
+    },
+    "CZK": {
+        "name": "CZK - 捷克克朗",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "Kč",
+        "tcur": "CZK",
+        "update": "2023-12-26 12:58:01"
+    },
+    "DJF": {
+        "name": "DJF - 吉布提法郎",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "Fdj",
+        "tcur": "DJF",
+        "update": "2023-12-26 12:58:01"
+    },
+    "DKK": {
+        "name": "DKK - 丹麦克朗",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "kr",
+        "tcur": "DKK",
+        "update": "2023-12-26 12:58:01"
+    },
+    "DOP": {
+        "name": "DOP - 多米尼加比索",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "$",
+        "tcur": "DOP",
+        "update": "2023-12-26 12:58:01"
+    },
+    "DZD": {
+        "name": "DZD - 阿尔及利亚第纳尔",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "د.ج",
+        "tcur": "DZD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "EGP": {
+        "name": "EGP - 埃及镑",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "£",
+        "tcur": "EGP",
+        "update": "2023-12-26 12:58:01"
+    },
+    "ERN": {
+        "name": "ERN - 厄立特里亚纳克法",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "Nkf",
+        "tcur": "ERN",
+        "update": "2023-12-26 12:58:01"
+    },
+    "ETB": {
+        "name": "ETB - 埃塞俄比亚比尔",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "Br",
+        "tcur": "ETB",
+        "update": "2023-12-26 12:58:01"
+    },
+    "EUR": {
+        "name": "EUR - 欧元",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "€",
+        "tcur": "EUR",
+        "update": "2023-12-26 12:58:01"
+    },
+    "FJD": {
+        "name": "FJD - 斐济元",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "$",
+        "tcur": "FJD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "FKP": {
+        "name": "FKP - 福克兰群岛镑",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "£",
+        "tcur": "FKP",
+        "update": "2023-12-26 12:58:01"
+    },
+    "GBP": {
+        "name": "GBP - 英国英镑",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "£",
+        "tcur": "GBP",
+        "update": "2023-12-26 12:58:01"
+    },
+    "GEL": {
+        "name": "GEL - 格鲁吉亚拉里",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "₾",
+        "tcur": "GEL",
+        "update": "2023-12-26 12:58:01"
+    },
+    "GHS": {
+        "name": "GHS - 加纳赛地",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "GH₵",
+        "tcur": "GHS",
+        "update": "2023-12-26 12:58:01"
+    },
+    "GIP": {
+        "name": "GIP - 直布罗陀镑",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "£",
+        "tcur": "GIP",
+        "update": "2023-12-26 12:58:01"
+    },
+    "GMD": {
+        "name": "GMD - 冈比亚达拉西",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "D",
+        "tcur": "GMD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "GNF": {
+        "name": "GNF - 几内亚法郎",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "FG",
+        "tcur": "GNF",
+        "update": "2023-12-26 12:58:01"
+    },
+    "GTQ": {
+        "name": "GTQ - 危地马拉格查尔",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "Q",
+        "tcur": "GTQ",
+        "update": "2023-12-26 12:58:01"
+    },
+    "GYD": {
+        "name": "GYD - 圭亚那元",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "$",
+        "tcur": "GYD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "HKD": {
+        "name": "HKD - 香港港元",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "$",
+        "tcur": "HKD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "HNL": {
+        "name": "HNL - 洪都拉斯伦皮拉",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "L",
+        "tcur": "HNL",
+        "update": "2023-12-26 12:58:01"
+    },
+    "HRK": {
+        "name": "HRK - 克罗地亚库纳",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "kn",
+        "tcur": "HRK",
+        "update": "2023-12-26 12:58:01"
+    },
+    "HUF": {
+        "name": "HUF - 匈牙利福林",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "Ft",
+        "tcur": "HUF",
+        "update": "2023-12-26 12:58:01"
+    },
+    "IDR": {
+        "name": "IDR - 印度尼西亚印尼盾",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "Rp",
+        "tcur": "IDR",
+        "update": "2023-12-26 12:58:01"
+    },
+    "ILS": {
+        "name": "ILS - 以色列新谢克尔",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "₪",
+        "tcur": "ILS",
+        "update": "2023-12-26 12:58:01"
+    },
+    "INR": {
+        "name": "INR - 印度卢比",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "₹",
+        "tcur": "INR",
+        "update": "2023-12-26 12:58:01"
+    },
+    "IQD": {
+        "name": "IQD - 伊拉克第纳尔",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "ع.د",
+        "tcur": "IQD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "IRR": {
+        "name": "IRR - 伊朗里亚尔",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "﷼",
+        "tcur": "IRR",
+        "update": "2023-12-26 12:58:01"
+    },
+    "ISK": {
+        "name": "ISK - 冰岛克朗",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "kr",
+        "tcur": "ISK",
+        "update": "2023-12-26 12:58:01"
+    },
+    "JMD": {
+        "name": "JMD - 牙买加元",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "J$",
+        "tcur": "JMD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "JOD": {
+        "name": "JOD - 约旦第纳尔",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "د.ا",
+        "tcur": "JOD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "JPY": {
+        "name": "JPY - 日本日圆",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "¥",
+        "tcur": "JPY",
+        "update": "2023-12-26 12:58:01"
+    },
+    "KES": {
+        "name": "KES - 肯尼亚先令",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "KSh",
+        "tcur": "KES",
+        "update": "2023-12-26 12:58:01"
+    },
+    "KGS": {
+        "name": "KGS - 吉尔吉斯斯坦索姆",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "лв",
+        "tcur": "KGS",
+        "update": "2023-12-26 12:58:01"
+    },
+    "KHR": {
+        "name": "KHR - 柬埔寨瑞尔",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "៛",
+        "tcur": "KHR",
+        "update": "2023-12-26 12:58:01"
+    },
+    "KRW": {
+        "name": "KRW - 韩国韩元",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "₩",
+        "tcur": "KRW",
+        "update": "2023-12-26 12:58:01"
+    },
+    "KWD": {
+        "name": "KWD - 科威特第纳尔",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "د.ك",
+        "tcur": "KWD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "KYD": {
+        "name": "KYD - 开曼群岛元",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "$",
+        "tcur": "KYD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "KZT": {
+        "name": "KZT - 哈萨克斯坦坚戈",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "₸",
+        "tcur": "KZT",
+        "update": "2023-12-26 12:58:01"
+    },
+    "LAK": {
+        "name": "LAK - 老挝基普",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "₭",
+        "tcur": "LAK",
+        "update": "2023-12-26 12:58:01"
+    },
+    "LBP": {
+        "name": "LBP - 黎巴嫩镑",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "ل.ل",
+        "tcur": "LBP",
+        "update": "2023-12-26 12:58:01"
+    },
+    "LKR": {
+        "name": "LKR - 斯里兰卡卢比",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "₨",
+        "tcur": "LKR",
+        "update": "2023-12-26 12:58:01"
+    },
+    "LRD": {
+        "name": "LRD - 利比里亚元",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "L$",
+        "tcur": "LRD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "LYD": {
+        "name": "LYD - 利比亚第纳尔",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "د.ل",
+        "tcur": "LYD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "MAD": {
+        "name": "MAD - 摩洛哥迪拉姆",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "د.م.",
+        "tcur": "MAD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "MDL": {
+        "name": "MDL - 摩尔多瓦列伊",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "L",
+        "tcur": "MDL",
+        "update": "2023-12-26 12:58:01"
+    },
+    "MGA": {
+        "name": "MGA - 马达加斯加阿里亚里",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "Ar",
+        "tcur": "MGA",
+        "update": "2023-12-26 12:58:01"
+    },
+    "MKD": {
+        "name": "MKD - 北马其顿代纳尔",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "ден",
+        "tcur": "MKD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "MMK": {
+        "name": "MMK - 缅甸元",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "K",
+        "tcur": "MMK",
+        "update": "2023-12-26 12:58:01"
+    },
+    "MNT": {
+        "name": "MNT - 蒙古图格里克",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "₮",
+        "tcur": "MNT",
+        "update": "2023-12-26 12:58:01"
+    },
+    "MOP": {
+        "name": "MOP - 澳门币",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "MOP$",
+        "tcur": "MOP",
+        "update": "2023-12-26 12:58:01"
+    },
+    "MRU": {
+        "name": "MRU - 毛里塔尼亚乌吉亚",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "UM",
+        "tcur": "MRU",
+        "update": "2023-12-26 12:58:01"
+    },
+    "MUR": {
+        "name": "MUR - 毛里求斯卢比",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "₨",
+        "tcur": "MUR",
+        "update": "2023-12-26 12:58:01"
+    },
+    "MVR": {
+        "name": "MVR - 马尔代夫卢菲亚",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "Rf",
+        "tcur": "MVR",
+        "update": "2023-12-26 12:58:01"
+    },
+    "MWK": {
+        "name": "MWK - 马拉维克瓦查",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "MK",
+        "tcur": "MWK",
+        "update": "2023-12-26 12:58:01"
+    },
+    "MXN": {
+        "name": "MXN - 墨西哥比索",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "$",
+        "tcur": "MXN",
+        "update": "2023-12-26 12:58:01"
+    },
+    "MYR": {
+        "name": "MYR - 马来西亚林吉特",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "RM",
+        "tcur": "MYR",
+        "update": "2023-12-26 12:58:01"
+    },
+    "MZN": {
+        "name": "MZN - 莫桑比克梅蒂卡尔",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "MT",
+        "tcur": "MZN",
+        "update": "2023-12-26 12:58:01"
+    },
+    "NAD": {
+        "name": "NAD - 纳米比亚元",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "N$",
+        "tcur": "NAD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "NGN": {
+        "name": "NGN - 尼日利亚奈拉",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "₦",
+        "tcur": "NGN",
+        "update": "2023-12-26 12:58:01"
+    },
+    "NIO": {
+        "name": "NIO - 尼加拉瓜科多巴",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "C$",
+        "tcur": "NIO",
+        "update": "2023-12-26 12:58:01"
+    },
+    "NOK": {
+        "name": "NOK - 挪威克朗",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "kr",
+        "tcur": "NOK",
+        "update": "2023-12-26 12:58:01"
+    },
+    "NPR": {
+        "name": "NPR - 尼泊尔卢比",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "रू",
+        "tcur": "NPR",
+        "update": "2023-12-26 12:58:01"
+    },
+    "NZD": {
+        "name": "NZD - 新西兰元",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "$",
+        "tcur": "NZD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "OMR": {
+        "name": "OMR - 阿曼里亚尔",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "﷼",
+        "tcur": "OMR",
+        "update": "2023-12-26 12:58:01"
+    },
+    "PAB": {
+        "name": "PAB - 巴拿马巴波亚",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "B/.",
+        "tcur": "PAB",
+        "update": "2023-12-26 12:58:01"
+    },
+    "PEN": {
+        "name": "PEN - 秘鲁新索尔",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "S/.",
+        "tcur": "PEN",
+        "update": "2023-12-26 12:58:01"
+    },
+    "PGK": {
+        "name": "PGK - 巴布亚新几内亚基那",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "K",
+        "tcur": "PGK",
+        "update": "2023-12-26 12:58:01"
+    },
+    "PHP": {
+        "name": "PHP - 菲律宾比索",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "₱",
+        "tcur": "PHP",
+        "update": "2023-12-26 12:58:01"
+    },
+    "PKR": {
+        "name": "PKR - 巴基斯坦卢比",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "Rs",
+        "tcur": "PKR",
+        "update": "2023-12-26 12:58:01"
+    },
+    "PLN": {
+        "name": "PLN - 波兰兹罗提",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "zł",
+        "tcur": "PLN",
+        "update": "2023-12-26 12:58:01"
+    },
+    "PYG": {
+        "name": "PYG - 巴拉圭瓜拉尼",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "Gs",
+        "tcur": "PYG",
+        "update": "2023-12-26 12:58:01"
+    },
+    "QAR": {
+        "name": "QAR - 卡塔尔里亚尔",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "﷼",
+        "tcur": "QAR",
+        "update": "2023-12-26 12:58:01"
+    },
+    "RON": {
+        "name": "RON - 罗马尼亚列伊",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "lei",
+        "tcur": "RON",
+        "update": "2023-12-26 12:58:01"
+    },
+    "RSD": {
+        "name": "RSD - 塞尔维亚第纳尔",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "дин",
+        "tcur": "RSD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "RUB": {
+        "name": "RUB - 俄罗斯卢布",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "₽",
+        "tcur": "RUB",
+        "update": "2023-12-26 12:58:01"
+    },
+    "RWF": {
+        "name": "RWF - 卢旺达法郎",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "R₣",
+        "tcur": "RWF",
+        "update": "2023-12-26 12:58:01"
+    },
+    "SAR": {
+        "name": "SAR - 沙特里亚尔",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "﷼",
+        "tcur": "SAR",
+        "update": "2023-12-26 12:58:01"
+    },
+    "SBD": {
+        "name": "SBD - 所罗门群岛元",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "SI$",
+        "tcur": "SBD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "SCR": {
+        "name": "SCR - 塞舌尔卢比",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "₨",
+        "tcur": "SCR",
+        "update": "2023-12-26 12:58:01"
+    },
+    "SDG": {
+        "name": "SDG - 苏丹镑",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "£",
+        "tcur": "SDG",
+        "update": "2023-12-26 12:58:01"
+    },
+    "SEK": {
+        "name": "SEK - 瑞典克朗",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "kr",
+        "tcur": "SEK",
+        "update": "2023-12-26 12:58:01"
+    },
+    "SGD": {
+        "name": "SGD - 新加坡元",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "$",
+        "tcur": "SGD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "SHP": {
+        "name": "SHP - 圣赫勒拿镑",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "£",
+        "tcur": "SHP",
+        "update": "2023-12-26 12:58:01"
+    },
+    "SOS": {
+        "name": "SOS - 索马里先令",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "S",
+        "tcur": "SOS",
+        "update": "2023-12-26 12:58:01"
+    },
+    "SRD": {
+        "name": "SRD - 苏里南元",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "Sr$",
+        "tcur": "SRD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "SSP": {
+        "name": "SSP - 南苏丹镑",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "£",
+        "tcur": "SSP",
+        "update": "2023-12-26 12:58:01"
+    },
+    "STN": {
+        "name": "STN - 圣多美和普林西比多布拉",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "Db",
+        "tcur": "STN",
+        "update": "2023-12-26 12:58:01"
+    },
+    "SYP": {
+        "name": "SYP - 叙利亚镑",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "LS",
+        "tcur": "SYP",
+        "update": "2023-12-26 12:58:01"
+    },
+    "SZL": {
+        "name": "SZL - 斯威士兰里兰吉尼",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "L",
+        "tcur": "SZL",
+        "update": "2023-12-26 12:58:01"
+    },
+    "THB": {
+        "name": "THB - 泰国泰铢",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "฿",
+        "tcur": "THB",
+        "update": "2023-12-26 12:58:01"
+    },
+    "TJS": {
+        "name": "TJS - 塔吉克斯坦索莫尼",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "смн",
+        "tcur": "TJS",
+        "update": "2023-12-26 12:58:01"
+    },
+    "TMT": {
+        "name": "TMT - 土库曼斯坦新马纳特",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "m",
+        "tcur": "TMT",
+        "update": "2023-12-26 12:58:01"
+    },
+    "TND": {
+        "name": "TND - 突尼斯第纳尔",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "د.ت",
+        "tcur": "TND",
+        "update": "2023-12-26 12:58:01"
+    },
+    "TOP": {
+        "name": "TOP - 汤加帕安加",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "T$",
+        "tcur": "TOP",
+        "update": "2023-12-26 12:58:01"
+    },
+    "TRY": {
+        "name": "TRY - 土耳其里拉",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "₺",
+        "tcur": "TRY",
+        "update": "2023-12-26 12:58:01"
+    },
+    "TTD": {
+        "name": "TTD - 特立尼达和多巴哥元",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "TT$",
+        "tcur": "TTD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "TWD": {
+        "name": "TWD - 台湾新台币",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "T$",
+        "tcur": "TWD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "TZS": {
+        "name": "TZS - 坦桑尼亚先令",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "TSh",
+        "tcur": "TZS",
+        "update": "2023-12-26 12:58:01"
+    },
+    "UAH": {
+        "name": "UAH - 乌克兰格里夫纳",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "₴",
+        "tcur": "UAH",
+        "update": "2023-12-26 12:58:01"
+    },
+    "UGX": {
+        "name": "UGX - 乌干达先令",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "USh",
+        "tcur": "UGX",
+        "update": "2023-12-26 12:58:01"
+    },
+    "USD": {
+        "name": "USD - 美元",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "$",
+        "tcur": "USD",
+        "update": "2023-12-26 12:58:01"
+    },
+    "UYU": {
+        "name": "UYU - 乌拉圭比索",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "$U",
+        "tcur": "UYU",
+        "update": "2023-12-26 12:58:01"
+    },
+    "UZS": {
+        "name": "UZS - 乌兹别克斯坦苏姆",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "so'm",
+        "tcur": "UZS",
+        "update": "2023-12-26 12:58:01"
+    },
+    "VES": {
+        "name": "VES - 委内瑞拉玻利瓦尔",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "Bs.",
+        "tcur": "VES",
+        "update": "2023-12-26 12:58:01"
+    },
+    "VND": {
+        "name": "VND - 越南盾",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "Đ",
+        "tcur": "VND",
+        "update": "2023-12-26 12:58:01"
+    },
+    "VUV": {
+        "name": "VUV - 瓦努阿图瓦图",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "Vt",
+        "tcur": "VUV",
+        "update": "2023-12-26 12:58:01"
+    },
+    "WST": {
+        "name": "WST - 萨摩亚塔拉",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "WS$",
+        "tcur": "WST",
+        "update": "2023-12-26 12:58:01"
+    },
+    "YER": {
+        "name": "YER - 也门里亚尔",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "ر.ي",
+        "tcur": "YER",
+        "update": "2023-12-26 12:58:01"
+    },
+    "ZAR": {
+        "name": "ZAR - 南非兰特",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "R",
+        "tcur": "ZAR",
+        "update": "2023-12-26 12:58:01"
+    },
+    "ZMW": {
+        "name": "ZMW - 赞比亚克瓦查",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "K",
+        "tcur": "ZMW",
+        "update": "2023-12-26 12:58:01"
+    },
+    "ZWL": {
+        "name": "ZWL - 津巴布韦元",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "$",
+        "tcur": "ZWL",
+        "update": "2023-12-26 12:58:01"
+    },
+    "CNH": {
+        "name": "CNH - 离岸人民币",
+        "rate": "1.00048146",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "symbol": "¥",
+        "tcur": "CNH",
+        "update": "2023-12-26 12:58:01"
+    },
+    "ALL": {
+        "name": "ALL - 阿尔巴尼亚列克",
+        "rate": "13.14882287",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "tcur": "ALL",
+        "symbol": "Lek",
+        "update": "2023-12-25 23:58:01"
+    },
+    "BHD": {
+        "name": "BHD - 巴林第纳尔",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "tcur": "BHD",
+        "update": "2023-12-25 23:58:01"
+    },
+    "BMD": {
+        "name": "BMD - 百慕大元",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "tcur": "BMD",
+        "update": "2023-12-25 23:58:01"
+    },
+    "XAF": {
+        "name": "XAF - 中非法郎",
+        "rate": "83.38144619",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "tcur": "XAF",
+        "update": "2023-12-25 23:59:00"
+    },
+    "LSL": {
+        "name": "LSL - 莱索托洛提",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "tcur": "LSL",
+        "update": "2023-12-25 23:59:00"
+    },
+    "XCD": {
+        "name": "XCD - 东加勒比元",
+        "rate": "0.37836323",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "tcur": "XCD",
+        "update": "2023-12-25 23:59:00"
+    },
+    "SLL": {
+        "name": "SLL - 塞拉利昂利昂",
+        "rate": "3185.73430493",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "tcur": "SLL",
+        "update": "2023-12-25 23:59:00"
+    },
+    "XPF": {
+        "name": "XPF - 太平洋法郎",
+        "rate": "15.13452915",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "tcur": "XPF",
+        "symbol": "₣",
+        "update": "2023-12-25 23:59:00"
+    },
+    "KMF": {
+        "name": "KMF - 科摩罗法郎",
+        "rate": "62.52102018",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "tcur": "KMF",
+        "update": "2023-12-25 23:59:00"
+    },
+    "HTG": {
+        "name": "HTG - 海地古德",
+        "rate": "18.38985426",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "tcur": "HTG",
+        "symbol": "G",
+        "update": "2023-12-25 23:59:00"
+    },
+    "SVC": {
+        "name": "SVC - 萨尔瓦多科朗",
+        "rate": "1.22617713",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "tcur": "SVC",
+        "symbol": "₡",
+        "update": "2023-12-25 23:59:00"
+    },
+    "XOF": {
+        "name": "XOF - 西非法郎",
+        "rate": "83.38144619",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "tcur": "XOF",
+        "update": "2023-12-25 23:59:00"
+    },
+    "KPW": {
+        "name": "KPW - 朝鲜元",
+        "rate": "126.12107623",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "tcur": "KPW",
+        "update": "2023-12-25 23:59:00"
+    },
+    "CUC": {
+        "name": "CUC - 古巴可兑换比索-旧",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "tcur": "CUC",
+        "update": "2023-12-25 23:59:00"
+    },
+    "BYR": {
+        "name": "BYR - 白俄罗斯卢布-旧",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "tcur": "BYR",
+        "update": "2023-12-25 23:59:00"
+    },
+    "LTL": {
+        "name": "LTL - 立陶宛立特-旧",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "tcur": "LTL",
+        "update": "2023-12-25 23:59:00"
+    },
+    "LVL": {
+        "name": "LVL - 拉脱维亚拉特-旧",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "tcur": "LVL",
+        "update": "2023-12-25 23:59:00"
+    },
+    "MRO": {
+        "name": "MRO - 毛里塔尼亚乌吉亚-旧",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "tcur": "MRO",
+        "update": "2023-12-25 23:59:00"
+    },
+    "STD": {
+        "name": "STD - 圣多美和普林西比多布拉-旧",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "tcur": "STD",
+        "update": "2023-12-25 23:59:00"
+    },
+    "VEF": {
+        "name": "VEF - 委内瑞拉玻利瓦尔-旧",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "tcur": "VEF",
+        "update": "2023-12-25 23:59:00"
+    },
+    "XDR": {
+        "name": "XDR - 特别提款权",
+        "rate": "1",
+        "scur": "CNY",
+        "status": "ALREADY",
+        "tcur": "XDR",
+        "update": "2023-12-25 23:59:00"
+    }
+}

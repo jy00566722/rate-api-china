@@ -1,0 +1,1673 @@
+Locale code	Language (region)
+ar	Arabic
+am	Amharic
+bg	Bulgarian
+bn	Bengali
+ca	Catalan
+cs	Czech
+da	Danish
+de	German
+el	Greek
+en	English
+en_AU	English (Australia)
+en_GB	English (Great Britain)
+en_US	English (USA)
+es	Spanish
+es_419	Spanish (Latin America and Caribbean)
+et	Estonian
+fa	Persian
+fi	Finnish
+fil	Filipino
+fr	French
+gu	Gujarati
+he	Hebrew
+hi	Hindi
+hr	Croatian
+hu	Hungarian
+id	Indonesian
+it	Italian
+ja	Japanese
+kn	Kannada
+ko	Korean
+lt	Lithuanian
+lv	Latvian
+ml	Malayalam
+mr	Marathi
+ms	Malay
+nl	Dutch
+no	Norwegian
+pl	Polish
+pt_BR	Portuguese (Brazil)
+pt_PT	Portuguese (Portugal)
+ro	Romanian
+ru	Russian
+sk	Slovak
+sl	Slovenian
+sr	Serbian
+sv	Swedish
+sw	Swahili
+ta	Tamil
+te	Telugu
+th	Thai
+tr	Turkish
+uk	Ukrainian
+vi	Vietnamese
+zh_CN	Chinese (China)
+zh_TW	Chinese (Taiwan)
+
+// 全语言列表,chrome插件支持的国际化
+
+        [
+            {"code": "ar", "language": "Arabic", "translated": "العربية"},
+            {"code": "am", "language": "Amharic", "translated": "አማርኛ"},
+            {"code": "bg", "language": "Bulgarian", "translated": "български"},
+            {"code": "bn", "language": "Bengali", "translated": "বাংলা"},
+            {"code": "ca", "language": "Catalan", "translated": "Català"},
+            {"code": "cs", "language": "Czech", "translated": "Čeština"},
+            {"code": "da", "language": "Danish", "translated": "Dansk"},
+            {"code": "de", "language": "German", "translated": "Deutsch"},
+            {"code": "el", "language": "Greek", "translated": "Ελληνικά"},
+            {"code": "en", "language": "English", "translated": "English"},
+            {"code": "en_AU", "language": "English (Australia)", "translated": "English (Australia)"},
+            {"code": "en_GB", "language": "English (Great Britain)", "translated": "English (Great Britain)"},
+            {"code": "en_US", "language": "English (USA)", "translated": "English (USA)"},
+            {"code": "es", "language": "Spanish", "translated": "Español"},
+            {"code": "es_419", "language": "Spanish (Latin America and Caribbean)", "translated": "Español (América Latina y el Caribe)"},
+            {"code": "et", "language": "Estonian", "translated": "Eesti"},
+            {"code": "fa", "language": "Persian", "translated": "فارسی"},
+            {"code": "fi", "language": "Finnish", "translated": "Suomi"},
+            {"code": "fil", "language": "Filipino", "translated": "Filipino"},
+            {"code": "fr", "language": "French", "translated": "Français"},
+            {"code": "gu", "language": "Gujarati", "translated": "ગુજરાતી"},
+            {"code": "he", "language": "Hebrew", "translated": "עברית"},
+            {"code": "hi", "language": "Hindi", "translated": "हिन्दी"},
+            {"code": "hr", "language": "Croatian", "translated": "Hrvatski"},
+            {"code": "hu", "language": "Hungarian", "translated": "Magyar"},
+            {"code": "id", "language": "Indonesian", "translated": "Bahasa Indonesia"},
+            {"code": "it", "language": "Italian", "translated": "Italiano"},
+            {"code": "ja", "language": "Japanese", "translated": "日本語"},
+            {"code": "kn", "language": "Kannada", "translated": "ಕನ್ನಡ"},
+            {"code": "ko", "language": "Korean", "translated": "한국어"},
+            {"code": "lt", "language": "Lithuanian", "translated": "Lietuvių"},
+            {"code": "lv", "language": "Latvian", "translated": "Latviešu"},
+            {"code": "ml", "language": "Malayalam", "translated": "മലയാളം"},
+            {"code": "mr", "language": "Marathi", "translated": "मराठी"},
+            {"code": "ms", "language": "Malay", "translated": "Bahasa Melayu"},
+            {"code": "nl", "language": "Dutch", "translated": "Nederlands"},
+            {"code": "no", "language": "Norwegian", "translated": "Norsk"},
+            {"code": "pl", "language": "Polish", "translated": "Polski"},
+            {"code": "pt_BR", "language": "Portuguese (Brazil)", "translated": "Português (Brasil)"},
+            {"code": "pt_PT", "language": "Portuguese (Portugal)", "translated": "Português (Portugal)"},
+            {"code": "ro", "language": "Romanian", "translated": "Română"},
+            {"code": "ru", "language": "Russian", "translated": "Русский"},
+            {"code": "sk", "language": "Slovak", "translated": "Slovenčina"},
+            {"code": "sl", "language": "Slovenian", "translated": "Slovenščina"},
+            {"code": "sr", "language": "Serbian", "translated": "Српски"},
+            {"code": "sv", "language": "Swedish", "translated": "Svenska"},
+            {"code": "sw", "language": "Swahili", "translated": "Kiswahili"},
+            {"code": "ta", "language": "Tamil", "translated": "தமிழ்"},
+            {"code": "te", "language": "Telugu", "translated": "తెలుగు"},
+            {"code": "th", "language": "Thai", "translated": "ไทย"},
+            {"code": "tr", "language": "Turkish", "translated": "Türkçe"},
+            {"code": "uk", "language": "Ukrainian", "translated": "Українська"},
+            {"code": "vi", "language": "Vietnamese", "translated": "Tiếng Việt"},
+            {"code": "zh_CN", "language": "Chinese (China)", "translated": "中文(简体)"},
+            {"code": "zh_TW", "language": "Chinese (Taiwan)", "translated": "中文(繁體)"}
+        ]
+
+//注释的是没有做国际化的语言
+    [
+        // {"code": "ar", "language": "Arabic", "translated": "العربية", "chineseNawme": "阿拉伯语"},
+        // {"code": "am", "language": "Amharic", "translated": "አማርኛ", "chineseNawme": "阿姆哈拉语"},
+        {"code": "bg", "language": "Bulgarian", "translated": "български", "chineseNawme": "保加利亚语","cu_code":"BGN","cu":"bg"},
+        {"code": "bn", "language": "Bengali", "translated": "বাংলা", "chineseNawme": "孟加拉语","cu_code":"BDT","cu":"bd"},
+        // {"code": "ca", "language": "Catalan", "translated": "Català", "chineseNawme": "加泰罗尼亚语"},
+        {"code": "cs", "language": "Czech", "translated": "Čeština", "chineseNawme": "捷克语","cu_code":"CZK","cu":"cz"},
+        {"code": "da", "language": "Danish", "translated": "Dansk", "chineseNawme": "丹麦语","cu_code:":"DKK","cu":"dk"},
+        {"code": "de", "language": "German", "translated": "Deutsch", "chineseNawme": "德语","cu_code":"EUR","cu":"de"},
+        {"code": "el", "language": "Greek", "translated": "Ελληνικά", "chineseNawme": "希腊语","cu_code":"EUR","cu":"gr"},
+        {"code": "en", "language": "English", "translated": "English", "chineseNawme": "英语","cu_code":"USD","cu":"us"},
+        {"code": "en_AU", "language": "English (Australia)", "translated": "English (Australia)", "chineseNawme": "英语（澳大利亚）","cu_code":"AUD","cu":"au"},
+        {"code": "en_GB", "language": "English (Great Britain)", "translated": "English (Great Britain)", "chineseNawme": "英语（英国）","cu_code":"GBP","cu":"gb"},
+        {"code": "en_US", "language": "English (USA)", "translated": "English (USA)", "chineseNawme": "英语（美国）","cu_code":"USD","cu":"us"},
+        {"code": "es", "language": "Spanish", "translated": "Español", "chineseNawme": "西班牙语","cu_code":"EUR","cu":"es"},
+        // {"code": "es_419", "language": "Spanish (Latin America and Caribbean)", "translated": "Español (América Latina y el Caribe)", "chineseNawme": "西班牙语（拉丁美洲和加勒比海）","cu_code":"EUR"},
+        {"code": "et", "language": "Estonian", "translated": "Eesti", "chineseNawme": "爱沙尼亚语","cu_code":"EUR","cu":"ee"},
+        {"code": "fa", "language": "Persian", "translated": "فارسی", "chineseNawme": "波斯语","cu_code":"IRR","cu":"ir"},
+        {"code": "fi", "language": "Finnish", "translated": "Suomi", "chineseNawme": "芬兰语","cu_code":"EUR","cu":"fi"},
+        {"code": "fil", "language": "Filipino", "translated": "Filipino", "chineseNawme": "菲律宾语","cu_code":"PHP","cu":"ph"},
+        {"code": "fr", "language": "French", "translated": "Français", "chineseNawme": "法语","cu_code":"EUR","cu":"fr"},
+        {"code": "gu", "language": "Gujarati", "translated": "ગુજરાતી", "chineseNawme": "古吉拉特语","cu_code":"INR","cu":"in"},
+        {"code": "he", "language": "Hebrew", "translated": "עברית", "chineseNawme": "希伯来语","cu_code":"","cu":"il"},
+        {"code": "hi", "language": "Hindi", "translated": "हिन्दी", "chineseNawme": "印地语","cu_code":"INR","cu":"in"},
+        {"code": "hr", "language": "Croatian", "translated": "Hrvatski", "chineseNawme": "克罗地亚语","cu_code":"HRK","cu":"hr"},
+        {"code": "hu", "language": "Hungarian", "translated": "Magyar", "chineseNawme": "匈牙利语","cu_code":"HUF","cu":"hu"},
+        {"code": "id", "language": "Indonesian", "translated": "Bahasa Indonesia", "chineseNawme": "印度尼西亚语","cu_code":"IDR","cu":"id"},
+        {"code": "it", "language": "Italian", "translated": "Italiano", "chineseNawme": "意大利语","cu_code":"EUR","cu":"it"},
+        {"code": "ja", "language": "Japanese", "translated": "日本語", "chineseNawme": "日语","cu_code":"JPY","cu":"jp"},
+        {"code": "kn", "language": "Kannada", "translated": "ಕನ್ನಡ", "chineseNawme": "卡纳达语","cu_code":"INR","cu":"in"},
+        {"code": "ko", "language": "Korean", "translated": "한국어", "chineseNawme": "韩语","cu_code":"KRW","cu":"kr"},
+        {"code": "lt", "language": "Lithuanian", "translated": "Lietuvių", "chineseNawme": "立陶宛语","cu_code":"EUR","cu":"lt"},
+        {"code": "lv", "language": "Latvian", "translated": "Latviešu", "chineseNawme": "拉脱维亚语","cu_code":"LVL","cu":"lv"},
+        // {"code": "ml", "language": "Malayalam", "translated": "മലയാളം", "chineseNawme": "马拉雅拉姆语"},
+        // {"code": "mr", "language": "Marathi", "translated": "मराठी", "chineseNawme": "马拉地语"},
+        {"code": "ms", "language": "Malay", "translated": "Bahasa Melayu", "chineseNawme": "马来语","cu_code":"MYR","cu":"my"},
+        {"code": "nl", "language": "Dutch", "translated": "Nederlands", "chineseNawme": "荷兰语","cu_code":"ANG","cu":"an"},
+        {"code": "no", "language": "Norwegian", "translated": "Norsk", "chineseNawme": "挪威语","cu_code":"NOK","cu":"no"},
+        {"code": "pl", "language": "Polish", "translated": "Polski", "chineseNawme": "波兰语","cu_code":"PLN","cu":"pl"},
+        // {"code": "pt_BR", "language": "Portuguese (Brazil)", "translated": "Português (Brasil)", "chineseNawme": "葡萄牙语（巴西）"},
+        {"code": "pt_PT", "language": "Portuguese (Portugal)", "translated": "Português (Portugal)", "chineseNawme": "葡萄牙语","cu_code":"EUR","cu":"pt"},
+        {"code": "ro", "language": "Romanian", "translated": "Română", "chineseNawme": "罗马尼亚语","cu_code":"RON","cu":"ro"},
+        {"code": "ru", "language": "Russian", "translated": "Русский", "chineseNawme": "俄语","cu_code":"RUB","cu":"ru"},
+        {"code": "sk", "language": "Slovak", "translated": "Slovenčina", "chineseNawme": "斯洛伐克语","cu_code":"EUR","cu":"sk"},
+        {"code": "sl", "language": "Slovenian", "translated": "Slovenščina", "chineseNawme": "斯洛文尼亚语","cu_code":"EUR","cu":"si"},
+        {"code": "sr", "language": "Serbian", "translated": "Српски", "chineseNawme": "塞尔维亚语","cu_code":"RSD","cu":"rs"},
+        {"code": "sv", "language": "Swedish", "translated": "Svenska", "chineseNawme": "瑞典语","cu_code":"SEK","cu":"se"},
+        {"code": "sw", "language": "Swahili", "translated": "Kiswahili", "chineseNawme": "斯瓦希里语","cu_code":"TZS","cu":"tz"},
+        {"code": "ta", "language": "Tamil", "translated": "தமிழ்", "chineseNawme": "泰米尔语","cu_code":"INR","cu":"lk"},
+        // {"code": "te", "language": "Telugu", "translated": "తెలుగు", "chineseNawme": "泰卢固语","cu_code":"INR","cu":"in"},
+        {"code": "th", "language": "Thai", "translated": "ไทย", "chineseNawme": "泰语","cu_code":"THB","cu":"th"},
+        {"code": "tr", "language": "Turkish", "translated": "Türkçe", "chineseNawme": "土耳其语","cu_code":"TRY","cu":"tr"},
+        {"code": "uk", "language": "Ukrainian", "translated": "Українська", "chineseNawme": "乌克兰语","cu_code":"UAH","cu":"ua"},
+        {"code": "vi", "language": "Vietnamese", "translated": "Tiếng Việt", "chineseNawme": "越南语","cu_code":"VND","cu":"vn"},
+
+        {"code": "zh_CN", "language": "Chinese (China)", "translated": "中文(简体)", "chineseNawme": "中文（简体）","cu_code":"CNY","cu":"cn"},
+        {"code": "zh_TW", "language": "Chinese (Taiwan)", "translated": "中文(繁體)", "chineseNawme": "中文（繁体）","cu_code":"TWD","cu":"tw"}
+    ]
+
+        const c = [
+    {
+        "Country": "MEXICO",
+        "Currency": "Mexican Peso",
+        "Code": "MXN",
+        "Country_code": "mx",
+        "Symbol": "$",
+        "ExchangeRate": 17.146262,
+        "IsVirtual": false
+    },
+    {
+        "Country": "MOLDOVA (THE REPUBLIC OF)",
+        "Currency": "Moldovan Leu",
+        "Code": "MDL",
+        "Country_code": "md",
+        "Symbol": "",
+        "ExchangeRate": 17.802422,
+        "IsVirtual": false
+    },
+    {
+        "Country": "PHILIPPINES (THE)",
+        "Currency": "Philippine Peso",
+        "Code": "PHP",
+        "Country_code": "ph",
+        "Symbol": "₱",
+        "ExchangeRate": 55.393886,
+        "IsVirtual": false
+    },
+    {
+        "Country": "QATAR",
+        "Currency": "Qatari Rial",
+        "Code": "QAR",
+        "Country_code": "qa",
+        "Symbol": "",
+        "ExchangeRate": 3.64,
+        "IsVirtual": false
+    },
+    {
+        "Country": "VIRGIN ISLANDS (U.S.)",
+        "Currency": "US Dollar",
+        "Code": "USD",
+        "Country_code": "us",
+        "Symbol": "$",
+        "ExchangeRate": 1,
+        "IsVirtual": false
+    },
+    {
+        "Country": "GREENLAND",
+        "Currency": "Danish Krone",
+        "Code": "DKK",
+        "Country_code": "dk",
+        "Symbol": "kr",
+        "ExchangeRate": 6.788519,
+        "IsVirtual": false
+    },
+    {
+        "Country": "KOREA (THE REPUBLIC OF)",
+        "Currency": "Won",
+        "Code": "KRW",
+        "Country_code": "kr",
+        "Symbol": "₩",
+        "ExchangeRate": 1291.834146,
+        "IsVirtual": false
+    },
+    {
+        "Country": "GIBRALTAR",
+        "Currency": "Gibraltar Pound",
+        "Code": "GIP",
+        "Country_code": "gi",
+        "Symbol": "",
+        "ExchangeRate": 0.788492,
+        "IsVirtual": false
+    },
+    {
+        "Country": "HONG KONG",
+        "Currency": "Hong Kong Dollar",
+        "Code": "HKD",
+        "Country_code": "hk",
+        "Symbol": "$",
+        "ExchangeRate": 7.796177,
+        "IsVirtual": false
+    },
+    {
+        "Country": "SOUTH AFRICA",
+        "Currency": "Rand",
+        "Code": "ZAR",
+        "Country_code": "za",
+        "Symbol": "R",
+        "ExchangeRate": 18.625787,
+        "IsVirtual": false
+    },
+    {
+        "Country": "SAO TOME AND PRINCIPE",
+        "Currency": "Dobra",
+        "Code": "STN",
+        "Country_code": "st",
+        "Symbol": "",
+        "ExchangeRate": 22.318922,
+        "IsVirtual": false
+    },
+    {
+        "Country": "SIERRA LEONE",
+        "Currency": "Leone",
+        "Code": "SLL",
+        "Country_code": "sl",
+        "Symbol": "",
+        "ExchangeRate": 22312.757177,
+        "IsVirtual": false
+    },
+    {
+        "Country": "AZERBAIJAN",
+        "Currency": "Azerbaijan Manat",
+        "Code": "AZN",
+        "Country_code": "az",
+        "Symbol": "",
+        "ExchangeRate": 1.700302,
+        "IsVirtual": false
+    },
+    {
+        "Country": "COSTA RICA",
+        "Currency": "Costa Rican Colon",
+        "Code": "CRC",
+        "Country_code": "cr",
+        "Symbol": "",
+        "ExchangeRate": 522.408101,
+        "IsVirtual": false
+    },
+    {
+        "Country": "EGYPT",
+        "Currency": "Egyptian Pound",
+        "Code": "EGP",
+        "Country_code": "eg",
+        "Symbol": "£",
+        "ExchangeRate": 31.030094,
+        "IsVirtual": false
+    },
+    {
+        "Country": "TAIWAN (PROVINCE OF CHINA)",
+        "Currency": "New Taiwan Dollar",
+        "Code": "TWD",
+        "Country_code": "tw",
+        "Symbol": "T$",
+        "ExchangeRate": 31.304588,
+        "IsVirtual": false
+    },
+    {
+        "Country": "INTERNATIONAL MONETARY FUND (IMF) ",
+        "Currency": "SDR (Special Drawing Right)",
+        "Code": "XDR",
+        "Country_code": "xd",
+        "Symbol": "",
+        "ExchangeRate": 0.749713,
+        "IsVirtual": false
+    },
+    {
+        "Country": "NORTH MACEDONIA",
+        "Currency": "Denar",
+        "Code": "MKD",
+        "Country_code": "mk",
+        "Symbol": "",
+        "ExchangeRate": 56.15889,
+        "IsVirtual": false
+    },
+    {
+        "Country": "PAKISTAN",
+        "Currency": "Pakistan Rupee",
+        "Code": "PKR",
+        "Country_code": "pk",
+        "Symbol": "Rs",
+        "ExchangeRate": 285.784867,
+        "IsVirtual": false
+    },
+    {
+        "Country": "BULGARIA",
+        "Currency": "Bulgarian Lev",
+        "Code": "BGN",
+        "Country_code": "bg",
+        "Symbol": "лв",
+        "ExchangeRate": 1.782215,
+        "IsVirtual": false
+    },
+    {
+        "Country": "DJIBOUTI",
+        "Currency": "Djibouti Franc",
+        "Code": "DJF",
+        "Country_code": "dj",
+        "Symbol": "",
+        "ExchangeRate": 177.721,
+        "IsVirtual": false
+    },
+    {
+        "Country": "INDONESIA",
+        "Currency": "Rupiah",
+        "Code": "IDR",
+        "Country_code": "id",
+        "Symbol": "Rp",
+        "ExchangeRate": 15434.666727,
+        "IsVirtual": false
+    },
+    {
+        "Country": "MADAGASCAR",
+        "Currency": "Malagasy Ariary",
+        "Code": "MGA",
+        "Country_code": "mg",
+        "Symbol": "",
+        "ExchangeRate": 4496.343942,
+        "IsVirtual": false
+    },
+    {
+        "Country": "SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA",
+        "Currency": "Saint Helena Pound",
+        "Code": "SHP",
+        "Country_code": "sh",
+        "Symbol": "",
+        "ExchangeRate": 0.788492,
+        "IsVirtual": false
+    },
+    {
+        "Country": "SPAIN",
+        "Currency": "Euro",
+        "Code": "EUR",
+        "Country_code": "eu",
+        "Symbol": "€",
+        "ExchangeRate": 0.91095,
+        "IsVirtual": false
+    },
+    {
+        "Country": "CAMBODIA",
+        "Currency": "Riel",
+        "Code": "KHR",
+        "Country_code": "kh",
+        "Symbol": "",
+        "ExchangeRate": 4103.588014,
+        "IsVirtual": false
+    },
+    {
+        "Country": "JAMAICA",
+        "Currency": "Jamaican Dollar",
+        "Code": "JMD",
+        "Country_code": "jm",
+        "Symbol": "",
+        "ExchangeRate": 155.520944,
+        "IsVirtual": false
+    },
+    {
+        "Country": "ERITREA",
+        "Currency": "Nakfa",
+        "Code": "ERN",
+        "Country_code": "er",
+        "Symbol": "",
+        "ExchangeRate": 15,
+        "IsVirtual": false
+    },
+    {
+        "Country": "MALDIVES",
+        "Currency": "Rufiyaa",
+        "Code": "MVR",
+        "Country_code": "mv",
+        "Symbol": "",
+        "ExchangeRate": 15.426329,
+        "IsVirtual": false
+    },
+    {
+        "Country": "CANADA",
+        "Currency": "Canadian Dollar",
+        "Code": "CAD",
+        "Country_code": "ca",
+        "Symbol": "$",
+        "ExchangeRate": 1.357521,
+        "IsVirtual": false
+    },
+    {
+        "Country": "KENYA",
+        "Currency": "Kenyan Shilling",
+        "Code": "KES",
+        "Country_code": "ke",
+        "Symbol": "",
+        "ExchangeRate": 153.534168,
+        "IsVirtual": false
+    },
+    {
+        "Country": "LEBANON",
+        "Currency": "Lebanese Pound",
+        "Code": "LBP",
+        "Country_code": "lb",
+        "Symbol": "",
+        "ExchangeRate": 15000,
+        "IsVirtual": false
+    },
+    {
+        "Country": "UNITED ARAB EMIRATES (THE)",
+        "Currency": "UAE Dirham",
+        "Code": "AED",
+        "Country_code": "ae",
+        "Symbol": "د.إ,",
+        "ExchangeRate": 3.6725,
+        "IsVirtual": false
+    },
+    {
+        "Country": "SYRIAN ARAB REPUBLIC",
+        "Currency": "Syrian Pound",
+        "Code": "SYP",
+        "Country_code": "sy",
+        "Symbol": "",
+        "ExchangeRate": 12703.08356,
+        "IsVirtual": false
+    },
+    {
+        "Country": "TONGA",
+        "Currency": "Pa’anga",
+        "Code": "TOP",
+        "Country_code": "to",
+        "Symbol": "",
+        "ExchangeRate": 2.322918,
+        "IsVirtual": false
+    },
+    {
+        "Country": "BAHRAIN",
+        "Currency": "Bahraini Dinar",
+        "Code": "BHD",
+        "Country_code": "bh",
+        "Symbol": "",
+        "ExchangeRate": 0.376,
+        "IsVirtual": false
+    },
+    {
+        "Country": "TURKMENISTAN",
+        "Currency": "Turkmenistan New Manat",
+        "Code": "TMT",
+        "Country_code": "tm",
+        "Symbol": "",
+        "ExchangeRate": 3.498742,
+        "IsVirtual": false
+    },
+    {
+        "Country": "VANUATU",
+        "Currency": "Vatu",
+        "Code": "VUV",
+        "Country_code": "vu",
+        "Symbol": "",
+        "ExchangeRate": 119.405973,
+        "IsVirtual": false
+    },
+    {
+        "Country": "PERU",
+        "Currency": "Sol",
+        "Code": "PEN",
+        "Country_code": "pe",
+        "Symbol": "S/.",
+        "ExchangeRate": 3.729905,
+        "IsVirtual": false
+    },
+    {
+        "Country": "TANZANIA, UNITED REPUBLIC OF",
+        "Currency": "Tanzanian Shilling",
+        "Code": "TZS",
+        "Country_code": "tz",
+        "Symbol": "",
+        "ExchangeRate": 2510.079707,
+        "IsVirtual": false
+    },
+    {
+        "Country": "BELARUS",
+        "Currency": "Belarusian Ruble",
+        "Code": "BYN",
+        "Country_code": "by",
+        "Symbol": "",
+        "ExchangeRate": 3.13022,
+        "IsVirtual": false
+    },
+    {
+        "Country": "INDIA",
+        "Currency": "Indian Rupee",
+        "Code": "INR",
+        "Country_code": "in",
+        "Symbol": "₹",
+        "ExchangeRate": 83.364217,
+        "IsVirtual": false
+    },
+    {
+        "Country": "MALAWI",
+        "Currency": "Malawi Kwacha",
+        "Code": "MWK",
+        "Country_code": "mw",
+        "Symbol": "",
+        "ExchangeRate": 1691.548702,
+        "IsVirtual": false
+    },
+    {
+        "Country": "BARBADOS",
+        "Currency": "Barbados Dollar",
+        "Code": "BBD",
+        "Country_code": "bb",
+        "Symbol": "",
+        "ExchangeRate": 2,
+        "IsVirtual": false
+    },
+    {
+        "Country": "ZIMBABWE",
+        "Currency": "Zimbabwe Dollar",
+        "Code": "ZWL",
+        "Country_code": "zw",
+        "Symbol": "",
+        "ExchangeRate": 5773.703384,
+        "IsVirtual": false
+    },
+    {
+        "Country": "RWANDA",
+        "Currency": "Rwanda Franc",
+        "Code": "RWF",
+        "Country_code": "rw",
+        "Symbol": "",
+        "ExchangeRate": 1273.471553,
+        "IsVirtual": false
+    },
+    {
+        "Country": "TAJIKISTAN",
+        "Currency": "Somoni",
+        "Code": "TJS",
+        "Country_code": "tj",
+        "Symbol": "",
+        "ExchangeRate": 10.94595,
+        "IsVirtual": false
+    },
+    {
+        "Country": "ESWATINI",
+        "Currency": "Lilangeni",
+        "Code": "SZL",
+        "Country_code": "sz",
+        "Symbol": "",
+        "ExchangeRate": 18.616792,
+        "IsVirtual": false
+    },
+    {
+        "Country": "FIJI",
+        "Currency": "Fiji Dollar",
+        "Code": "FJD",
+        "Country_code": "fj",
+        "Symbol": "$",
+        "ExchangeRate": 2.227893,
+        "IsVirtual": false
+    },
+    {
+        "Country": "LESOTHO",
+        "Currency": "Loti",
+        "Code": "LSL",
+        "Country_code": "ls",
+        "Symbol": "",
+        "ExchangeRate": 18.616792,
+        "IsVirtual": false
+    },
+    {
+        "Country": "SAUDI ARABIA",
+        "Currency": "Saudi Riyal",
+        "Code": "SAR",
+        "Country_code": "sa",
+        "Symbol": "﷼",
+        "ExchangeRate": 3.75,
+        "IsVirtual": false
+    },
+    {
+        "Country": "SERBIA",
+        "Currency": "Serbian Dinar",
+        "Code": "RSD",
+        "Country_code": "rs",
+        "Symbol": "",
+        "ExchangeRate": 107.075218,
+        "IsVirtual": false
+    },
+    {
+        "Country": "ARGENTINA",
+        "Currency": "Argentine Peso",
+        "Code": "ARS",
+        "Country_code": "ar",
+        "Symbol": "$",
+        "ExchangeRate": 359.53,
+        "IsVirtual": false
+    },
+    {
+        "Country": "BAHAMAS (THE)",
+        "Currency": "Bahamian Dollar",
+        "Code": "BSD",
+        "Country_code": "bs",
+        "Symbol": "$",
+        "ExchangeRate": 1,
+        "IsVirtual": false
+    },
+    {
+        "Country": "SVALBARD AND JAN MAYEN",
+        "Currency": "Norwegian Krone",
+        "Code": "NOK",
+        "Country_code": "no",
+        "Symbol": "kr",
+        "ExchangeRate": 10.646656,
+        "IsVirtual": false
+    },
+    {
+        "Country": "YEMEN",
+        "Currency": "Yemeni Rial",
+        "Code": "YER",
+        "Country_code": "ye",
+        "Symbol": "",
+        "ExchangeRate": 246.184337,
+        "IsVirtual": false
+    },
+    {
+        "Country": "ZAMBIA",
+        "Currency": "Zambian Kwacha",
+        "Code": "ZMW",
+        "Country_code": "zm",
+        "Symbol": "",
+        "ExchangeRate": 23.635966,
+        "IsVirtual": false
+    },
+    {
+        "Country": "COLOMBIA",
+        "Currency": "Colombian Peso",
+        "Code": "COP",
+        "Country_code": "co",
+        "Symbol": "$",
+        "ExchangeRate": 4024.11293,
+        "IsVirtual": false
+    },
+    {
+        "Country": "COMOROS (THE)",
+        "Currency": "Comorian Franc ",
+        "Code": "KMF",
+        "Country_code": "km",
+        "Symbol": "",
+        "ExchangeRate": 448.171011,
+        "IsVirtual": false
+    },
+    {
+        "Country": "CUBA",
+        "Currency": "Cuban Peso",
+        "Code": "CUP",
+        "Country_code": "cu",
+        "Symbol": "",
+        "ExchangeRate": 24,
+        "IsVirtual": false
+    },
+    {
+        "Country": "SINT MAARTEN (DUTCH PART)",
+        "Currency": "Netherlands Antillean Guilder",
+        "Code": "ANG",
+        "Country_code": "an",
+        "Symbol": "",
+        "ExchangeRate": 1.79,
+        "IsVirtual": false
+    },
+    {
+        "Country": "NAMIBIA",
+        "Currency": "Namibia Dollar",
+        "Code": "NAD",
+        "Country_code": "na",
+        "Symbol": "",
+        "ExchangeRate": 18.616792,
+        "IsVirtual": false
+    },
+    {
+        "Country": "TUVALU",
+        "Currency": "Australian Dollar",
+        "Code": "AUD",
+        "Country_code": "au",
+        "Symbol": "$",
+        "ExchangeRate": 1.506333,
+        "IsVirtual": false
+    },
+    {
+        "Country": "BOSNIA AND HERZEGOVINA",
+        "Currency": "Convertible Mark",
+        "Code": "BAM",
+        "Country_code": "ba",
+        "Symbol": "",
+        "ExchangeRate": 1.781715,
+        "IsVirtual": false
+    },
+    {
+        "Country": "BURUNDI",
+        "Currency": "Burundi Franc",
+        "Code": "BIF",
+        "Country_code": "bi",
+        "Symbol": "",
+        "ExchangeRate": 2842.701223,
+        "IsVirtual": false
+    },
+    {
+        "Country": "URUGUAY",
+        "Currency": "Peso Uruguayo",
+        "Code": "UYU",
+        "Country_code": "uy",
+        "Symbol": "$U",
+        "ExchangeRate": 38.927553,
+        "IsVirtual": false
+    },
+    {
+        "Country": "UZBEKISTAN",
+        "Currency": "Uzbekistan Sum",
+        "Code": "UZS",
+        "Country_code": "uz",
+        "Symbol": "",
+        "ExchangeRate": 12268.024843,
+        "IsVirtual": false
+    },
+    {
+        "Country": "NEPAL",
+        "Currency": "Nepalese Rupee",
+        "Code": "NPR",
+        "Country_code": "np",
+        "Symbol": "",
+        "ExchangeRate": 133.382729,
+        "IsVirtual": false
+    },
+    {
+        "Country": "SEYCHELLES",
+        "Currency": "Seychelles Rupee",
+        "Code": "SCR",
+        "Country_code": "sc",
+        "Symbol": "",
+        "ExchangeRate": 13.376749,
+        "IsVirtual": false
+    },
+    {
+        "Country": "UGANDA",
+        "Currency": "Uganda Shilling",
+        "Code": "UGX",
+        "Country_code": "ug",
+        "Symbol": "",
+        "ExchangeRate": 3804.002968,
+        "IsVirtual": false
+    },
+    {
+        "Country": "OMAN",
+        "Currency": "Rial Omani",
+        "Code": "OMR",
+        "Country_code": "om",
+        "Symbol": "",
+        "ExchangeRate": 0.384497,
+        "IsVirtual": false
+    },
+    {
+        "Country": "TÜRKİYE",
+        "Currency": "Turkish Lira",
+        "Code": "TRY",
+        "Country_code": "tr",
+        "Symbol": "₺",
+        "ExchangeRate": 28.931007,
+        "IsVirtual": false
+    },
+    {
+        "Country": "BOTSWANA",
+        "Currency": "Pula",
+        "Code": "BWP",
+        "Country_code": "bw",
+        "Symbol": "",
+        "ExchangeRate": 13.590782,
+        "IsVirtual": false
+    },
+    {
+        "Country": "KYRGYZSTAN",
+        "Currency": "Som",
+        "Code": "KGS",
+        "Country_code": "kg",
+        "Symbol": "",
+        "ExchangeRate": 88.987195,
+        "IsVirtual": false
+    },
+    {
+        "Country": "SWEDEN",
+        "Currency": "Swedish Krona",
+        "Code": "SEK",
+        "Country_code": "se",
+        "Symbol": "kr",
+        "ExchangeRate": 10.361283,
+        "IsVirtual": false
+    },
+    {
+        "Country": "GABON",
+        "Currency": "CFA Franc BEAC",
+        "Code": "XAF",
+        "Country_code": "xa",
+        "Symbol": "",
+        "ExchangeRate": 597.561347,
+        "IsVirtual": false
+    },
+    {
+        "Country": "RUSSIAN FEDERATION (THE)",
+        "Currency": "Russian Ruble",
+        "Code": "RUB",
+        "Country_code": "ru",
+        "Symbol": "₽",
+        "ExchangeRate": 89.004533,
+        "IsVirtual": false
+    },
+    {
+        "Country": "SRI LANKA",
+        "Currency": "Sri Lanka Rupee",
+        "Code": "LKR",
+        "Country_code": "lk",
+        "Symbol": "",
+        "ExchangeRate": 327.958403,
+        "IsVirtual": false
+    },
+    {
+        "Country": "GEORGIA",
+        "Currency": "Lari",
+        "Code": "GEL",
+        "Country_code": "ge",
+        "Symbol": "",
+        "ExchangeRate": 2.709863,
+        "IsVirtual": false
+    },
+    {
+        "Country": "MACAO",
+        "Currency": "Pataca",
+        "Code": "MOP",
+        "Country_code": "mo",
+        "Symbol": "",
+        "ExchangeRate": 8.030062,
+        "IsVirtual": false
+    },
+    {
+        "Country": "NICARAGUA",
+        "Currency": "Cordoba Oro",
+        "Code": "NIO",
+        "Country_code": "ni",
+        "Symbol": "",
+        "ExchangeRate": 36.014825,
+        "IsVirtual": false
+    },
+    {
+        "Country": "LIBERIA",
+        "Currency": "Liberian Dollar",
+        "Code": "LRD",
+        "Country_code": "lr",
+        "Symbol": "",
+        "ExchangeRate": 187.664997,
+        "IsVirtual": false
+    },
+    {
+        "Country": "SUDAN (THE)",
+        "Currency": "Sudanese Pound",
+        "Code": "SDG",
+        "Country_code": "sd",
+        "Symbol": "",
+        "ExchangeRate": 550.421726,
+        "IsVirtual": false
+    },
+    {
+        "Country": "ALBANIA",
+        "Currency": "Lek",
+        "Code": "ALL",
+        "Country_code": "al",
+        "Symbol": "",
+        "ExchangeRate": 94.916242,
+        "IsVirtual": false
+    },
+    {
+        "Country": "FALKLAND ISLANDS (THE) [MALVINAS]",
+        "Currency": "Falkland Islands Pound",
+        "Code": "FKP",
+        "Country_code": "fk",
+        "Symbol": "",
+        "ExchangeRate": 0.788492,
+        "IsVirtual": false
+    },
+    {
+        "Country": "LAO PEOPLE’S DEMOCRATIC REPUBLIC (THE)",
+        "Currency": "Lao Kip",
+        "Code": "LAK",
+        "Country_code": "la",
+        "Symbol": "",
+        "ExchangeRate": 20280.955343,
+        "IsVirtual": false
+    },
+    {
+        "Country": "IRAQ",
+        "Currency": "Iraqi Dinar",
+        "Code": "IQD",
+        "Country_code": "iq",
+        "Symbol": "",
+        "ExchangeRate": 1309.286007,
+        "IsVirtual": false
+    },
+    {
+        "Country": "ROMANIA",
+        "Currency": "Romanian Leu",
+        "Code": "RON",
+        "Country_code": "ro",
+        "Symbol": "lei",
+        "ExchangeRate": 4.539788,
+        "IsVirtual": false
+    },
+    {
+        "Country": "SIERRA LEONE",
+        "Currency": "Leone",
+        "Code": "SLE",
+        "Country_code": "sl",
+        "Symbol": "",
+        "ExchangeRate": 22.312757,
+        "IsVirtual": false
+    },
+    {
+        "Country": "BERMUDA",
+        "Currency": "Bermudian Dollar",
+        "Code": "BMD",
+        "Country_code": "bm",
+        "Symbol": "",
+        "ExchangeRate": 1,
+        "IsVirtual": false
+    },
+    {
+        "Country": "GUINEA",
+        "Currency": "Guinean Franc",
+        "Code": "GNF",
+        "Country_code": "gn",
+        "Symbol": "",
+        "ExchangeRate": 8575.143129,
+        "IsVirtual": false
+    },
+    {
+        "Country": "SAMOA",
+        "Currency": "Tala",
+        "Code": "WST",
+        "Country_code": "ws",
+        "Symbol": "",
+        "ExchangeRate": 2.720839,
+        "IsVirtual": false
+    },
+    {
+        "Country": "BOLIVIA (PLURINATIONAL STATE OF)",
+        "Currency": "Boliviano",
+        "Code": "BOB",
+        "Country_code": "bo",
+        "Symbol": "",
+        "ExchangeRate": 6.805658,
+        "IsVirtual": false
+    },
+    {
+        "Country": "ETHIOPIA",
+        "Currency": "Ethiopian Birr",
+        "Code": "ETB",
+        "Country_code": "et",
+        "Symbol": "",
+        "ExchangeRate": 56.061273,
+        "IsVirtual": false
+    },
+    {
+        "Country": "MALAYSIA",
+        "Currency": "Malaysian Ringgit",
+        "Code": "MYR",
+        "Country_code": "my",
+        "Symbol": "RM",
+        "ExchangeRate": 4.671458,
+        "IsVirtual": false
+    },
+    {
+        "Country": "BANGLADESH",
+        "Currency": "Taka",
+        "Code": "BDT",
+        "Country_code": "bd",
+        "Symbol": "",
+        "ExchangeRate": 110.113885,
+        "IsVirtual": false
+    },
+    {
+        "Country": "LIBYA",
+        "Currency": "Libyan Dinar",
+        "Code": "LYD",
+        "Country_code": "ly",
+        "Symbol": "",
+        "ExchangeRate": 4.807439,
+        "IsVirtual": false
+    },
+    {
+        "Country": "PANAMA",
+        "Currency": "Balboa",
+        "Code": "PAB",
+        "Country_code": "pa",
+        "Symbol": "B/.",
+        "ExchangeRate": 1,
+        "IsVirtual": false
+    },
+    {
+        "Country": "TRINIDAD AND TOBAGO",
+        "Currency": "Trinidad and Tobago Dollar",
+        "Code": "TTD",
+        "Country_code": "tt",
+        "Symbol": "",
+        "ExchangeRate": 6.699521,
+        "IsVirtual": false
+    },
+    {
+        "Country": "ALGERIA",
+        "Currency": "Algerian Dinar",
+        "Code": "DZD",
+        "Country_code": "dz",
+        "Symbol": "",
+        "ExchangeRate": 133.102745,
+        "IsVirtual": false
+    },
+    {
+        "Country": "ANGOLA",
+        "Currency": "Kwanza",
+        "Code": "AOA",
+        "Country_code": "ao",
+        "Symbol": "",
+        "ExchangeRate": 838.687958,
+        "IsVirtual": false
+    },
+    {
+        "Country": "ARMENIA",
+        "Currency": "Armenian Dram",
+        "Code": "AMD",
+        "Country_code": "am",
+        "Symbol": "",
+        "ExchangeRate": 402.012537,
+        "IsVirtual": false
+    },
+    {
+        "Country": "HUNGARY",
+        "Currency": "Forint",
+        "Code": "HUF",
+        "Country_code": "hu",
+        "Symbol": "Ft",
+        "ExchangeRate": 344.541273,
+        "IsVirtual": false
+    },
+    {
+        "Country": "IRAN (ISLAMIC REPUBLIC OF)",
+        "Currency": "Iranian Rial",
+        "Code": "IRR",
+        "Country_code": "ir",
+        "Symbol": "",
+        "ExchangeRate": 41940.972408,
+        "IsVirtual": false
+    },
+    {
+        "Country": "WESTERN SAHARA",
+        "Currency": "Moroccan Dirham",
+        "Code": "MAD",
+        "Country_code": "ma",
+        "Symbol": "",
+        "ExchangeRate": 10.057634,
+        "IsVirtual": false
+    },
+    {
+        "Country": "SOUTH SUDAN",
+        "Currency": "South Sudanese Pound",
+        "Code": "SSP",
+        "Country_code": "ss",
+        "Symbol": "",
+        "ExchangeRate": 1074.485616,
+        "IsVirtual": false
+    },
+    {
+        "Country": "BRAZIL",
+        "Currency": "Brazilian Real",
+        "Code": "BRL",
+        "Country_code": "br",
+        "Symbol": "R$",
+        "ExchangeRate": 4.897624,
+        "IsVirtual": false
+    },
+    {
+        "Country": "CZECHIA",
+        "Currency": "Czech Koruna",
+        "Code": "CZK",
+        "Country_code": "cz",
+        "Symbol": "Kč",
+        "ExchangeRate": 22.143932,
+        "IsVirtual": false
+    },
+    {
+        "Country": "WALLIS AND FUTUNA",
+        "Currency": "CFP Franc",
+        "Code": "XPF",
+        "Country_code": "xp",
+        "Symbol": "",
+        "ExchangeRate": 108.708636,
+        "IsVirtual": false
+    },
+    {
+        "Country": "HONDURAS",
+        "Currency": "Lempira",
+        "Code": "HNL",
+        "Country_code": "hn",
+        "Symbol": "",
+        "ExchangeRate": 24.300381,
+        "IsVirtual": false
+    },
+    {
+        "Country": "MAURITIUS",
+        "Currency": "Mauritius Rupee",
+        "Code": "MUR",
+        "Country_code": "mu",
+        "Symbol": "",
+        "ExchangeRate": 43.889793,
+        "IsVirtual": false
+    },
+    {
+        "Country": "MOZAMBIQUE",
+        "Currency": "Mozambique Metical",
+        "Code": "MZN",
+        "Country_code": "mz",
+        "Symbol": "",
+        "ExchangeRate": 63.865831,
+        "IsVirtual": false
+    },
+    {
+        "Country": "CHILE",
+        "Currency": "Chilean Peso",
+        "Code": "CLP",
+        "Country_code": "cl",
+        "Symbol": "$",
+        "ExchangeRate": 876.277101,
+        "IsVirtual": false
+    },
+    {
+        "Country": "GAMBIA (THE)",
+        "Currency": "Dalasi",
+        "Code": "GMD",
+        "Country_code": "gm",
+        "Symbol": "",
+        "ExchangeRate": 66.331741,
+        "IsVirtual": false
+    },
+    {
+        "Country": "SAINT VINCENT AND THE GRENADINES",
+        "Currency": "East Caribbean Dollar",
+        "Code": "XCD",
+        "Country_code": "xc",
+        "Symbol": "",
+        "ExchangeRate": 2.7,
+        "IsVirtual": false
+    },
+    {
+        "Country": "PAPUA NEW GUINEA",
+        "Currency": "Kina",
+        "Code": "PGK",
+        "Country_code": "pg",
+        "Symbol": "",
+        "ExchangeRate": 3.660546,
+        "IsVirtual": false
+    },
+    {
+        "Country": "HAITI",
+        "Currency": "Gourde",
+        "Code": "HTG",
+        "Country_code": "ht",
+        "Symbol": "",
+        "ExchangeRate": 132.426657,
+        "IsVirtual": false
+    },
+    {
+        "Country": "JAPAN",
+        "Currency": "Yen",
+        "Code": "JPY",
+        "Country_code": "jp",
+        "Symbol": "¥",
+        "ExchangeRate": 147.636516,
+        "IsVirtual": false
+    },
+    {
+        "Country": "POLAND",
+        "Currency": "Zloty",
+        "Code": "PLN",
+        "Country_code": "pl",
+        "Symbol": "zł",
+        "ExchangeRate": 3.954852,
+        "IsVirtual": false
+    },
+    {
+        "Country": "AFGHANISTAN",
+        "Currency": "Afghani",
+        "Code": "AFN",
+        "Country_code": "af",
+        "Symbol": "",
+        "ExchangeRate": 70.804172,
+        "IsVirtual": false
+    },
+    {
+        "Country": "TOGO",
+        "Currency": "CFA Franc BCEAO",
+        "Code": "XOF",
+        "Country_code": "xo",
+        "Symbol": "",
+        "ExchangeRate": 597.561347,
+        "IsVirtual": false
+    },
+    {
+        "Country": "CHINA",
+        "Currency": "Yuan Renminbi",
+        "Code": "CNY",
+        "Country_code": "cn",
+        "Symbol": "¥",
+        "ExchangeRate": 7.143377,
+        "IsVirtual": false
+    },
+    {
+        "Country": "SWITZERLAND",
+        "Currency": "Swiss Franc",
+        "Code": "CHF",
+        "Country_code": "ch",
+        "Symbol": "₣",
+        "ExchangeRate": 0.878696,
+        "IsVirtual": false
+    },
+    {
+        "Country": "SINGAPORE",
+        "Currency": "Singapore Dollar",
+        "Code": "SGD",
+        "Country_code": "sg",
+        "Symbol": "$",
+        "ExchangeRate": 1.333132,
+        "IsVirtual": false
+    },
+    {
+        "Country": "VIET NAM",
+        "Currency": "Dong",
+        "Code": "VND",
+        "Country_code": "vn",
+        "Symbol": "Đ",
+        "ExchangeRate": 24174.194627,
+        "IsVirtual": false
+    },
+    {
+        "Country": "CONGO (THE DEMOCRATIC REPUBLIC OF THE)",
+        "Currency": "Congolese Franc",
+        "Code": "CDF",
+        "Country_code": "cd",
+        "Symbol": "",
+        "ExchangeRate": 2480.952986,
+        "IsVirtual": false
+    },
+    {
+        "Country": "DOMINICAN REPUBLIC (THE)",
+        "Currency": "Dominican Peso",
+        "Code": "DOP",
+        "Country_code": "do",
+        "Symbol": "$",
+        "ExchangeRate": 55.917194,
+        "IsVirtual": false
+    },
+    {
+        "Country": "KAZAKHSTAN",
+        "Currency": "Tenge",
+        "Code": "KZT",
+        "Country_code": "kz",
+        "Symbol": "₸",
+        "ExchangeRate": 458.919092,
+        "IsVirtual": false
+    },
+    {
+        "Country": "UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)",
+        "Currency": "Pound Sterling",
+        "Code": "GBP",
+        "Country_code": "gb",
+        "Symbol": "£",
+        "ExchangeRate": 0.788795,
+        "IsVirtual": false
+    },
+    {
+        "Country": "MAURITANIA",
+        "Currency": "Ouguiya",
+        "Code": "MRU",
+        "Country_code": "mr",
+        "Symbol": "",
+        "ExchangeRate": 39.598126,
+        "IsVirtual": false
+    },
+    {
+        "Country": "MONGOLIA",
+        "Currency": "Tugrik",
+        "Code": "MNT",
+        "Country_code": "mn",
+        "Symbol": "",
+        "ExchangeRate": 3479.522446,
+        "IsVirtual": false
+    },
+    {
+        "Country": "MYANMAR",
+        "Currency": "Kyat",
+        "Code": "MMK",
+        "Country_code": "mm",
+        "Symbol": "",
+        "ExchangeRate": 2063.604807,
+        "IsVirtual": false
+    },
+    {
+        "Country": "CAYMAN ISLANDS (THE)",
+        "Currency": "Cayman Islands Dollar",
+        "Code": "KYD",
+        "Country_code": "ky",
+        "Symbol": "",
+        "ExchangeRate": 0.833333,
+        "IsVirtual": false
+    },
+    {
+        "Country": "ICELAND",
+        "Currency": "Iceland Krona",
+        "Code": "ISK",
+        "Country_code": "is",
+        "Symbol": "kr",
+        "ExchangeRate": 137.54413,
+        "IsVirtual": false
+    },
+    {
+        "Country": "JORDAN",
+        "Currency": "Jordanian Dinar",
+        "Code": "JOD",
+        "Country_code": "jo",
+        "Symbol": "",
+        "ExchangeRate": 0.709,
+        "IsVirtual": false
+    },
+    {
+        "Country": "NIGERIA",
+        "Currency": "Naira",
+        "Code": "NGN",
+        "Country_code": "ng",
+        "Symbol": "",
+        "ExchangeRate": 806.221229,
+        "IsVirtual": false
+    },
+    {
+        "Country": "PARAGUAY",
+        "Currency": "Guarani",
+        "Code": "PYG",
+        "Country_code": "py",
+        "Symbol": "Gs",
+        "ExchangeRate": 7349.117188,
+        "IsVirtual": false
+    },
+    {
+        "Country": "ARUBA",
+        "Currency": "Aruban Florin",
+        "Code": "AWG",
+        "Country_code": "aw",
+        "Symbol": "",
+        "ExchangeRate": 1.79,
+        "IsVirtual": false
+    },
+    {
+        "Country": "BHUTAN",
+        "Currency": "Ngultrum",
+        "Code": "BTN",
+        "Country_code": "bt",
+        "Symbol": "",
+        "ExchangeRate": 83.364206,
+        "IsVirtual": false
+    },
+    {
+        "Country": "UKRAINE",
+        "Currency": "Hryvnia",
+        "Code": "UAH",
+        "Country_code": "ua",
+        "Symbol": "₴",
+        "ExchangeRate": 36.338237,
+        "IsVirtual": false
+    },
+    {
+        "Country": "GHANA",
+        "Currency": "Ghana Cedi",
+        "Code": "GHS",
+        "Country_code": "gh",
+        "Symbol": "",
+        "ExchangeRate": 12.081962,
+        "IsVirtual": false
+    },
+    {
+        "Country": "GUATEMALA",
+        "Currency": "Quetzal",
+        "Code": "GTQ",
+        "Country_code": "gt",
+        "Symbol": "Q",
+        "ExchangeRate": 7.707584,
+        "IsVirtual": false
+    },
+    {
+        "Country": "TUNISIA",
+        "Currency": "Tunisian Dinar",
+        "Code": "TND",
+        "Country_code": "tn",
+        "Symbol": "",
+        "ExchangeRate": 3.100841,
+        "IsVirtual": false
+    },
+    {
+        "Country": "KUWAIT",
+        "Currency": "Kuwaiti Dinar",
+        "Code": "KWD",
+        "Country_code": "kw",
+        "Symbol": "",
+        "ExchangeRate": 0.307898,
+        "IsVirtual": false
+    },
+    {
+        "Country": "SOLOMON ISLANDS",
+        "Currency": "Solomon Islands Dollar",
+        "Code": "SBD",
+        "Country_code": "sb",
+        "Symbol": "",
+        "ExchangeRate": 8.500985,
+        "IsVirtual": false
+    },
+    {
+        "Country": "BRUNEI DARUSSALAM",
+        "Currency": "Brunei Dollar",
+        "Code": "BND",
+        "Country_code": "bn",
+        "Symbol": "",
+        "ExchangeRate": 1.333128,
+        "IsVirtual": false
+    },
+    {
+        "Country": "CABO VERDE",
+        "Currency": "Cabo Verde Escudo",
+        "Code": "CVE",
+        "Country_code": "cv",
+        "Symbol": "",
+        "ExchangeRate": 100.448813,
+        "IsVirtual": false
+    },
+    {
+        "Country": "TOKELAU",
+        "Currency": "New Zealand Dollar",
+        "Code": "NZD",
+        "Country_code": "nz",
+        "Symbol": "$",
+        "ExchangeRate": 1.633169,
+        "IsVirtual": false
+    },
+    {
+        "Country": "SOMALIA",
+        "Currency": "Somali Shilling",
+        "Code": "SOS",
+        "Country_code": "so",
+        "Symbol": "",
+        "ExchangeRate": 570.90167,
+        "IsVirtual": false
+    },
+    {
+        "Country": "SURINAME",
+        "Currency": "Surinam Dollar",
+        "Code": "SRD",
+        "Country_code": "sr",
+        "Symbol": "",
+        "ExchangeRate": 38.274518,
+        "IsVirtual": false
+    },
+    {
+        "Country": "THAILAND",
+        "Currency": "Baht",
+        "Code": "THB",
+        "Country_code": "th",
+        "Symbol": "฿",
+        "ExchangeRate": 34.79693,
+        "IsVirtual": false
+    },
+    {
+        "Country": "VENEZUELA (BOLIVARIAN REPUBLIC OF)",
+        "Currency": "Bolívar Soberano",
+        "Code": "VES",
+        "Country_code": "ve",
+        "Symbol": "",
+        "ExchangeRate": 35.4784,
+        "IsVirtual": false
+    },
+    {
+        "Country": "BELIZE",
+        "Currency": "Belize Dollar",
+        "Code": "BZD",
+        "Country_code": "bz",
+        "Symbol": "",
+        "ExchangeRate": 2,
+        "IsVirtual": false
+    },
+    {
+        "Country": "GUYANA",
+        "Currency": "Guyana Dollar",
+        "Code": "GYD",
+        "Country_code": "gy",
+        "Symbol": "",
+        "ExchangeRate": 209.042846,
+        "IsVirtual": false
+    },
+    {
+        "Country": "ISRAEL",
+        "Currency": "New Israeli Sheqel",
+        "Code": "ILS",
+        "Country_code": "il",
+        "Symbol": "₪",
+        "ExchangeRate": 3.687092,
+        "IsVirtual": false
+    },
+    {
+        "Country": "Virtual",
+        "Currency": "LTC",
+        "Code": "LTC",
+        "Country_code": "ltc",
+        "Symbol": "",
+        "ExchangeRate": 70,
+        "IsVirtual": true
+    },
+    {
+        "Country": "Virtual",
+        "Currency": "XLM",
+        "Code": "XLM",
+        "Country_code": "xlm",
+        "Symbol": "",
+        "ExchangeRate": 0.1185,
+        "IsVirtual": true
+    },
+    {
+        "Country": "Virtual",
+        "Currency": "BTC",
+        "Code": "BTC",
+        "Country_code": "btc",
+        "Symbol": "",
+        "ExchangeRate": 37854.64,
+        "IsVirtual": true
+    },
+    {
+        "Country": "Virtual",
+        "Currency": "NEO",
+        "Code": "NEO",
+        "Country_code": "neo",
+        "Symbol": "",
+        "ExchangeRate": 10.83,
+        "IsVirtual": true
+    },
+    {
+        "Country": "Virtual",
+        "Currency": "XRP",
+        "Code": "XRP",
+        "Country_code": "xrp",
+        "Symbol": "",
+        "ExchangeRate": 0.609,
+        "IsVirtual": true
+    },
+    {
+        "Country": "Virtual",
+        "Currency": "EOS",
+        "Code": "EOS",
+        "Country_code": "eos",
+        "Symbol": "",
+        "ExchangeRate": 0.679,
+        "IsVirtual": true
+    },
+    {
+        "Country": "Virtual",
+        "Currency": "TRX",
+        "Code": "TRX",
+        "Country_code": "trx",
+        "Symbol": "",
+        "ExchangeRate": 0.10343,
+        "IsVirtual": true
+    },
+    {
+        "Country": "Virtual",
+        "Currency": "DOG",
+        "Code": "DOG",
+        "Country_code": "dog",
+        "Symbol": "",
+        "ExchangeRate": 0.08045,
+        "IsVirtual": true
+    },
+    {
+        "Country": "Virtual",
+        "Currency": "BCH",
+        "Code": "BCH",
+        "Country_code": "bch",
+        "Symbol": "",
+        "ExchangeRate": 223.2,
+        "IsVirtual": true
+    },
+    {
+        "Country": "Virtual",
+        "Currency": "ETH",
+        "Code": "ETH",
+        "Country_code": "eth",
+        "Symbol": "",
+        "ExchangeRate": 2028.8,
+        "IsVirtual": true
+    },
+    {
+        "Country": "Virtual",
+        "Currency": "ADA",
+        "Code": "ADA",
+        "Country_code": "ada",
+        "Symbol": "",
+        "ExchangeRate": 0.3816,
+        "IsVirtual": true
+    }
+]

@@ -1,0 +1,30 @@
+{
+    "dragAndSort": "フラグをドラッグして並べ替え",
+    "facebookTip":"フィードバック",
+    "messageTip":"メッセージ",
+    "dragAndSortTip":"ドラッグして並べ替え!",
+    "languageTip":"言語",
+    "backHomeTip":"ホームに戻る",
+    "settingTip":"設定",
+    "popupTip":"ポップアップウィンドウ",
+    "selectLanguage":"言語を選択",
+    "messageList":"メッセージリスト",
+    "setting":"設定",
+    "settingText1":"通貨換算のための小数点以下の精度を設定。",
+    "settingText2":"小数点以下2桁から最大6桁まで:",
+    "provideCompleteInformation":"完全な情報を提供してください",
+    "QuestionsAndSuggestions":"質問と提案",
+    "YourNameandContactInformation":"あなたの名前と連絡先情報:",
+    "YourFeedbackIsVeryImportant":"あなたのフィードバックがとても重要です!",
+    "YourQuestion":"あなたの質問:",
+    "OrYourSuggestion":"または、あなたの提案:",
+    "FeedbackSuccessful":"フィードバックを送信しました",
+    "FeedbackFailedPleaseTryAgain":"フィードバックの送信に失敗しました。再試行してください。",
+    "PleaseCheckYourNetwork":"ネットワーク接続を確認してください",
+  
+    "SelectCurrencyToAddToCalculationList":"計算リストに追加する通貨を選択",
+    "SearchForCurrencyCountryCode":"通貨／国のコードを検索",
+    "ViewSelected":"選択したものを表示",
+    "ViewAll":"すべて表示"
+  }
+  

@@ -1,0 +1,30 @@
+{
+    "dragAndSort": "Glissez le drapeau pour trier",
+    "facebookTip":"Retour d'information",
+    "messageTip":"Message",
+    "dragAndSortTip":"Glissez et triez !",
+    "languageTip":"Langue",
+    "backHomeTip":"Retour à l'accueil",
+    "settingTip":"Paramètre",
+    "popupTip":"Fenêtre popup",
+    "selectLanguage":"Sélectionnez la langue",
+    "messageList":"Liste de messages",
+    "setting":"Paramètres",
+    "settingText1":"Définissez la précision décimale pour la conversion de devise.",
+    "settingText2":"Minimum de 2 et maximum de 6 décimales :",
+    "provideCompleteInformation":"Veuillez fournir des informations complètes",
+    "QuestionsAndSuggestions":"Questions et suggestions",
+    "YourNameandContactInformation":"Votre nom et vos coordonnées :",
+    "YourFeedbackIsVeryImportant":"Votre avis est très important !",
+    "YourQuestion":"Votre question :",
+    "OrYourSuggestion":"Ou votre suggestion :",
+    "FeedbackSuccessful":"Retour d'information réussi",
+    "FeedbackFailedPleaseTryAgain":"Échec du retour d'information, veuillez réessayer !",
+    "PleaseCheckYourNetwork":"Vérifiez votre réseau",
+  
+    "SelectCurrencyToAddToCalculationList":"Sélectionnez une devise à ajouter à la liste de calcul",
+    "SearchForCurrencyCountryCode":"Recherchez la devise/code pays",
+    "ViewSelected":"Voir sélectionnés",
+    "ViewAll":"Voir tout"
+  }
+  

@@ -1,0 +1,30 @@
+{
+    "dragAndSort": "Σύρετε τη σημαία για ταξινόμηση",
+    "facebookTip": "Ανατροφοδότηση",
+    "messageTip": "Μήνυμα",
+    "dragAndSortTip": "Σύρετε και ταξινομήστε!",
+    "languageTip": "Γλώσσα",
+    "backHomeTip": "Επιστροφή στην αρχική σελίδα",
+    "settingTip": "Ρύθμιση",
+    "popupTip": "Αναδυόμενο παράθυρο",
+    "selectLanguage": "Επιλέξτε Γλώσσα",
+    "messageList": "Κατάλογος Μηνυμάτων",
+    "setting": "Ρύθμιση",
+    "settingText1": "Ρύθμιση της ακρίβειας των δεκαδικών για τη συναλλαγματική μετατροπή.",
+    "settingText2": "Ελάχιστο 2 και μέγιστο 6 δεκαδικές θέσεις:",
+    "provideCompleteInformation": "Παρακαλούμε παρέχετε πλήρη πληροφορίες",
+    "QuestionsAndSuggestions": "Ερωτήσεις και Προτάσεις",
+    "YourNameandContactInformation": "Το Όνομα και Πληροφορίες Επικοινωνίας σας:",
+    "YourFeedbackIsVeryImportant": "Η γνώμη σας είναι πολύ σημαντική!",
+    "YourQuestion": "Η Ερώτησή σας:",
+    "OrYourSuggestion": "Ή, η Πρότασή σας:",
+    "FeedbackSuccessful": "Η ανατροφοδότηση ήταν επιτυχής",
+    "FeedbackFailedPleaseTryAgain": "Η ανατροφοδότηση απέτυχε, παρακαλούμε προσπαθήστε ξανά!",
+    "PleaseCheckYourNetwork": "Παρακαλούμε ελέγξτε το δίκτυό σας",
+  
+    "SelectCurrencyToAddToCalculationList": "Επιλέξτε νόμισμα για προσθήκη στη λίστα υπολογισμού",
+    "SearchForCurrencyCountryCode": "Αναζήτηση για νόμισμα/χώρα/κωδικό",
+    "ViewSelected": "Προβολή επιλεγμένων",
+    "ViewAll": "Προβολή όλων"
+  }
+  

@@ -1,0 +1,376 @@
+{
+  "env": "release",
+  "mongodbDns":"mongodb://root:aabbcc1234@rate-mongo:27017/",
+  "cache": {
+    "expire": 300
+  },
+  "dataFrom": "google",
+  "DataServer": "No1-2qu2-docker",
+  "enableLogs":"false",
+  "periodInMinutes":6,
+  "feedback": 0,
+  "shopee_nodes": [
+    [
+        "span",
+        "text-base/5 truncate"
+    ],
+["span","font-medium text-base/5 truncate"],
+["div","G27FPf"],
+["div","item-card-special__current-price item-card-special__current-price--special"],
+["span","tKMsYD sgV6O0"],
+["span","K6jv6V"]
+  ],
+  "amazon_nodes": [
+        [
+        "span",
+        "class",
+        "_cDEzb_p13n-sc-price_3mJ9Z"
+    ],
+    [
+        "span",
+        "class",
+        "a-color-price _p13n-desktop-sims-fbt_fbt-desktop_total-amount__wLVdU"
+    ],
+    [
+        "span",
+        "class",
+        "_p13n-desktop-sims-fbt_price_p13n-sc-price__bCZQt"
+    ],
+    [
+        "span",
+        "class",
+        "_p13n-zg-list-carousel-desktop_price_p13n-sc-price__3mJ9Z"
+    ],
+    [
+        "span",
+        "aria-hidden",
+        "true"
+    ],
+    [
+        "span",
+        "id",
+        "priceblock_ourprice"
+    ],
+    [
+        "span",
+        "id",
+        "priceblock_saleprice"
+    ],
+    [
+        "span",
+        "id",
+        "priceblock_dealprice"
+    ],
+    [
+        "span",
+        "class",
+        "a-size-medium a-color-price"
+    ],
+    [
+        "span",
+        "class",
+        "p13n-sc-price"
+    ],
+    [
+        "span",
+        "class",
+        "a-color-price a-text-bold"
+    ],
+    [
+        "p",
+        "class",
+        "a-spacing-none a-text-left a-size-mini twisterSwatchPrice"
+    ],
+    [
+        "span",
+        "class",
+        "netPrice--2L7XO"
+    ],
+    [
+        "span",
+        "class",
+        "a-color-price"
+    ],
+    [
+        "span",
+        "class",
+        "a-color-base"
+    ],
+    [
+        "span",
+        "class",
+        "a-size-base a-color-base"
+    ],
+    [
+        "span",
+        "id",
+        "sns-base-price"
+    ]
+  ],
+  "aliexpress_nodes": [
+     ["div.U-S0j",1],
+    ["div.multi--price-sale--U-S0jtj",1],
+    ["div.es--wrap--1Hlfkoj.notranslate",1],
+    ["div.price--current--H7sGzqb.product-price-current",1,"main-price"],
+    ["div.item-price.line-limit-length",1],
+    ["div.snow-price_SnowPrice__mainM__1cmks6",1]
+
+],
+  "qoo10jp_nodes": [
+    "strong",
+    "strong[class=\"price\"]",
+    "div[class=\"info\"] div[class=\"prc\"]",
+    "span[class=\"prc\"]",
+    "em"
+  ],
+  "lazada_nodes": [
+    ["span","rax-text-v2 price"],
+    [
+      "span",
+      "price"
+    ],
+    [
+      "span",
+      "super-deals-item-sale-price-value"
+    ],
+    [
+      "span",
+      "global-brand-item-price-value"
+    ],
+    [
+      "span",
+      "best-seller-item-price-value"
+    ],
+    [
+      "div",
+      "sale-price"
+    ],
+    [
+      "div",
+      "store-product-price"
+    ],
+    [
+      "p",
+      "product-price"
+    ],
+    [
+      "div",
+      "product-price"
+    ],
+    [
+      "span",
+      "c13VH6"
+    ],
+    [
+      "span",
+      "pswt-product-price"
+    ],
+    [
+      "div",
+      "pswt-product-price"
+    ],
+    [
+      "div",
+      "item-discount-price"
+    ],
+    [
+      "div",
+      "delivery-option-item__shipping-fee"
+    ],
+    [
+      "div",
+      "discount-price"
+    ],
+    [
+      "span",
+      "price-label price-label-prim"
+    ],
+    [
+      "div",
+      "p-slider-product-price"
+    ],
+    [
+      "span",
+      "hotdeal-product3-item-price-discount"
+    ],
+    [
+      "span",
+      "text"
+    ],
+    [
+      "div",
+      "voucher-tile-discount-value-text"
+    ],
+    [
+      "span",
+      "index__currency___Q78Jz"
+    ],
+    [
+      "span",
+      "ooOxS"
+    ]
+  ],
+  "lazada_main_price_nodes": [
+    "#module_product_price_1 span.pdp-price.pdp-price_type_normal.pdp-price_color_orange.pdp-price_size_xl"
+  ],
+  "ozon_nodes": [
+    [
+        "div.c3013-a0 span.c3013-a1.tsBodyAccent400Small.c3013-c0",
+        1
+    ],
+    ["span.c3013-a1.tsHeadline500Medium.c3013-c0",1],
+    [".mm5_27 .m5m_27.mm4_27 .nm_27.mm7_27",1]
+  ],
+  "ozon_nodeStr": ".ga111-a2.tsBodyControl400Small",
+  "gmarket_nodes": [
+    [
+      "span",
+      "class",
+      "text__price"
+    ],
+    [
+      "span",
+      "class",
+      "text text__value"
+    ],
+    [
+      "strong",
+      "class",
+      "text text__value"
+    ],
+    [
+      "strong",
+      "class",
+      "price_real"
+    ],
+    [
+      "strong",
+      "class",
+      "price"
+    ],
+    [
+      "span",
+      "class",
+      "item_price"
+    ],
+    [
+      "span",
+      "class",
+      "monthly_price"
+    ],
+    [
+      "strong span"
+    ],
+    [
+      "div[class=\"price\"] strong"
+    ],
+    [
+      "span[class=\"box__price-seller\"] span[class=\"text__value\"]"
+    ],
+    ["div.box__price--sale strong.text__price"]
+  ],
+  "temu_nodes": [
+    "span[class=\"_2Ci4uR69\"]",
+    "div[class=\"_15o2bYpT\"] div._3cZnvUvE span",
+    "div.LiwdOzUs",
+    ".jjTLo_cu"
+  ],
+  "temu_nodes_new":[
+        [
+        "span[class=\"_2Ci4uR69\"]",
+        1
+    ],
+    ["div._2myxWHLi._34JT516r",3,[{"styleName":"lineHeight","styleValue":"normal"}]],
+    [
+        "div._15o2bYpT div._3cZnvUvE",
+        2,[{"styleName":"lineHeight","styleValue":"normal"}]
+    ],
+    [
+        "div.LiwdOzUs",
+        1,[{"styleName":"lineHeight","styleValue":"normal"}]
+    ],
+    [
+        ".jjTLo_cu",
+        1
+    ],
+    ["._3WBDHjhZ",1,[{"styleName":"lineHeight","styleValue":"normal"}]]
+  ],
+  "wowmajp_nodes":[
+    ["em",1], 
+    ["p[class=\"price\"]",0],
+    ["span[class=\"price\"]",0],
+    ["span[class=\"rankingProductMainPrice\"]",0],
+    ["span[class=\"Price_price__currentPrice__FaSZR false\"]",0],
+    ["span[class=\"Price_price__currentPrice__FaSZR Price_price__currentPrice_sale__tmcHk\"]",0],
+    ["p[class=\"price red50\"]",0],
+    ["p[class=\"FloatingCart_item__detail_price__LvRS8\"] span",0],
+    ["span[class=\"menuCardVertical__priceNow\"]",0],
+    ["span.SkuItemInformation_skuItemInformation__price_bold__f0w6S",0]
+  ],
+  "rakuten_nodes":[
+    ["div.price"],
+    ["div.dealPrice"],
+    ["div.price--OX_YW"],
+    ["div.text-display--1Iony.type-header--18XjX.size-medium--JpmnL.align-right--2ACTn.color-crimson--_Y7TS.layout-inline--1ajCj"],
+    ["div.value--3Z7Nj"],
+    ["li.kakaku"],
+    ["li.itemPrice"],
+    ["span.rnkInShopPriceValue"],
+    ["div.subtotal-price"],
+    ["div.r-slideshow-item-price"],
+    ["p.itemPrice"],
+    ["span.price"],
+    ["span.item-price-actual-value"],
+    ["span.value._red.important.original-price"],
+    ["li.riAshiatoPrice"]
+],
+"vinted_nodes":[
+      [
+        ".new-item-box__title .title-content p.web_ui__Text__text.web_ui__Text__caption.web_ui__Text__left.web_ui__Text__muted",
+        1
+    ],
+    [
+        ".u-flexbox.u-align-items-baseline.u-flex-wrap p.web_ui__Text__text.web_ui__Text__subtitle.web_ui__Text__left.web_ui__Text__clickable.web_ui__Text__underline-none",
+        1
+    ],
+    [".u-flexbox.u-align-items-center h3.web_ui__Text__text.web_ui__Text__subtitle.web_ui__Text__left",1],
+    ["button.u-cursor-pointer .web_ui__Text__text.web_ui__Text__title.web_ui__Text__left.web_ui__Text__clickable.web_ui__Text__underline-none",1]
+],
+"mkd_nodes":[
+      ["span[class=\"andes-money-amount andes-money-amount--cents-superscript\"]",1],
+      ["span[class=\"andes-money-amount ui-pdp-price__part andes-money-amount--cents-superscript andes-money-amount--compact\"]",1],
+      ["span[class=\"andes-money-amount ui-search-price__part ui-search-price__part--medium andes-money-amount--cents-superscript\"]",1],
+      ["span[class=\"andes-money-amount ui-recommendations-card__price andes-money-amount--cents-superscript andes-money-amount--compact\"]",1],
+      [".dynamic-carousel__price-block span.dynamic-carousel__price", 2, 0, 1]
+],
+"miravia_nodes":[],
+"wildberries":[
+    ["ins.price__lower-price",1],
+    ["ins.price-block__final-price",1],
+    ["b.bestsellers__price ",1],
+    ["span.price-block__wallet-price",1]
+],
+"coupang":[
+    ["span.price",1],
+    ["div.promotion-item-price",1],
+    ["span.total-price",1],
+    ["span.rl-item__price",1],
+    ["span.recommend-widget__item__price",1],
+    ["em strong.price-value",1]
+],
+"walmart":[
+    ["div[data-automation-id='product-price'] > div:first-child",1],
+    ["span[itemprop='price']",1]
+],
+"kream_nodes":[
+  [".price .amount .num",1],
+  [".price.price_area .amount",1],
+  [".price-container .price-text-container p",1],
+  [".product_info .product_price .discount_price .amount",1],
+  [".product_desc .price_box .amount",1]
+],
+    "message":[
+      {"index":10,"context":"V3.7.0发布:POP页增加100USD=xxxCNY的显示,设置中可关闭","main":true,"type":"warning","time":"2024-08-17"},
+      {"index":9,"context":"汇率故障已经修复","main":false,"type":"warning","time":"2024-08-17"}
+  ]
+}
