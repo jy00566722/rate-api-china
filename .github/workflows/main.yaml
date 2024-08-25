@@ -65,20 +65,35 @@ jobs:
           TAG_NAME=$RELEASE_VERSION
           INSTALL_DIR=/opt/rate-api
           BINARY_NAME="rate-api-${TAG_NAME}"
+          GITHUB_REPO="${{ github.repository }}"
+          DOWNLOAD_URL="https://github.com/${GITHUB_REPO}/releases/download/${TAG_NAME}/${BINARY_NAME}"
           
           echo "Deploying version: ${TAG_NAME}"
           echo "Binary name: ${BINARY_NAME}"
+          echo "Download URL: ${DOWNLOAD_URL}"
           
           # 创建安装目录（如果不存在）
           sudo mkdir -p $INSTALL_DIR
           
-          # 下载新版本
-          echo "Downloading from: https://github.com/${{ github.repository }}/releases/download/${TAG_NAME}/${BINARY_NAME}"
-          wget -v "https://github.com/${{ github.repository }}/releases/download/${TAG_NAME}/${BINARY_NAME}"
+          # 下载新版本（带重试机制）
+          MAX_RETRIES=5
+          RETRY_DELAY=10
+          
+          for i in $(seq 1 $MAX_RETRIES); do
+            echo "Attempt $i of $MAX_RETRIES"
+            if wget -v --spider "${DOWNLOAD_URL}"; then
+              echo "File exists, proceeding with download"
+              wget -v "${DOWNLOAD_URL}" && break
+            else
+              echo "File not found, retrying in $RETRY_DELAY seconds..."
+              sleep $RETRY_DELAY
+            fi
+          done
           
           # 检查下载是否成功
           if [ ! -f "${BINARY_NAME}" ]; then
-            echo "Error: Failed to download ${BINARY_NAME}"
+            echo "Error: Failed to download ${BINARY_NAME} after $MAX_RETRIES attempts"
+            echo "Please check the release page: https://github.com/${GITHUB_REPO}/releases/tag/${TAG_NAME}"
             exit 1
           fi
           
