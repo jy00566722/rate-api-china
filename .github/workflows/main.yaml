@@ -75,20 +75,32 @@ jobs:
           # 创建安装目录（如果不存在）
           sudo mkdir -p $INSTALL_DIR
           
-          # 下载新版本（带重试机制）
-          MAX_RETRIES=5
-          RETRY_DELAY=10
+          # 方法1:使用 curl 和 GitHub Token
+          echo "Attempting to download with curl and GitHub Token..."
+          curl -vLJO -H "Authorization: token ${GITHUB_TOKEN}" "${DOWNLOAD_URL}"
           
-          for i in $(seq 1 $MAX_RETRIES); do
-            echo "Attempt $i of $MAX_RETRIES"
-            if wget -v --spider "${DOWNLOAD_URL}"; then
-              echo "File exists, proceeding with download"
-              wget -v "${DOWNLOAD_URL}" && break
+          # 如果 curl 失败，尝试使用 GitHub CLI(如果可用)
+          if [ ! -f "${BINARY_NAME}" ] && command -v gh &> /dev/null; then
+            echo "Curl download failed. Attempting to use GitHub CLI..."
+            gh auth login --with-token <<< "${GITHUB_TOKEN}"
+            gh release download "${TAG_NAME}" -p "${BINARY_NAME}"
+          fi
+          
+          # 如果前两种方法都失败，使用 GitHub API
+          if [ ! -f "${BINARY_NAME}" ]; then
+            echo "Direct downloads failed. Attempting to use GitHub API..."
+            ASSET_ID=$(curl -sH "Authorization: token ${GITHUB_TOKEN}" \
+                            "https://api.github.com/repos/${GITHUB_REPO}/releases/tags/${TAG_NAME}" \
+                      | jq -r ".assets[] | select(.name == \"${BINARY_NAME}\") | .id")
+            
+            if [ ! -z "$ASSET_ID" ]; then
+              curl -vLJO -H "Authorization: token ${GITHUB_TOKEN}" \
+                   -H "Accept: application/octet-stream" \
+                   "https://api.github.com/repos/${GITHUB_REPO}/releases/assets/${ASSET_ID}"
             else
-              echo "File not found, retrying in $RETRY_DELAY seconds..."
-              sleep $RETRY_DELAY
+              echo "Failed to find asset ID"
             fi
-          done
+          fi
           
           # 检查下载是否成功
           if [ ! -f "${BINARY_NAME}" ]; then
