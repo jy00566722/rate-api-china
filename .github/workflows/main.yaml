@@ -57,6 +57,23 @@ jobs:
             data: fs.readFileSync('./rate-api-go/rate-api')
           });
 
+    - name: Setup SSH
+      run: |
+        mkdir -p ~/.ssh
+        echo "${{ secrets.SERVER_SSH_KEY }}" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan -H ${{ secrets.SERVER_HOST }} >> ~/.ssh/known_hosts
+
+    - name: Copy File to Server
+      uses: appleboy/scp-action@master
+      with:
+        host: ${{ secrets.SERVER_HOST }}
+        username: ${{ secrets.SERVER_USERNAME }}
+        key: ${{ secrets.SERVER_SSH_KEY }}
+        source: "rate-api-go/rate-api"
+        target: "/opt/rate-api/"
+        strip_components: 1
+
     - name: Deploy to Server
       uses: appleboy/ssh-action@master
       env:
@@ -68,6 +85,9 @@ jobs:
         key: ${{ secrets.SERVER_SSH_KEY }}
         envs: RELEASE_VERSION,BINARY_HASH
         script: |
+          echo "Testing SSH connection"
+          ls -la /opt/rate-api
+          
           # 设置变量
           TAG_NAME=$RELEASE_VERSION
           INSTALL_DIR=/opt/rate-api
@@ -76,33 +96,18 @@ jobs:
           echo "Deploying version: ${TAG_NAME}"
           echo "Binary name: ${BINARY_NAME}"
           
-          # 创建安装目录（如果不存在）
-          sudo mkdir -p $INSTALL_DIR
+          # 验证文件hash
+          REMOTE_HASH=$(sha256sum $INSTALL_DIR/rate-api | cut -d ' ' -f 1)
           
-          # 设置最大重试次数
-          MAX_RETRIES=3
-          RETRY_COUNT=0
+          if [ "$REMOTE_HASH" = "$BINARY_HASH" ]; then
+            echo "File transfer successful and hash verified."
+          else
+            echo "Hash verification failed. Deployment failed."
+            exit 1
+          fi
           
-          while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
-            # 使用scp传输文件
-            scp ${{ github.workspace }}/rate-api-go/rate-api ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_HOST }}:$INSTALL_DIR/$BINARY_NAME
-            
-            # 验证文件hash
-            REMOTE_HASH=$(ssh ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_HOST }} "sha256sum $INSTALL_DIR/$BINARY_NAME | cut -d ' ' -f 1")
-            
-            if [ "$REMOTE_HASH" = "$BINARY_HASH" ]; then
-              echo "File transfer successful and hash verified."
-              break
-            else
-              echo "Hash verification failed. Retrying..."
-              RETRY_COUNT=$((RETRY_COUNT+1))
-              
-              if [ $RETRY_COUNT -eq $MAX_RETRIES ]; then
-                echo "Maximum retries reached. Deployment failed."
-                exit 1
-              fi
-            fi
-          done
+          # 重命名文件
+          sudo mv $INSTALL_DIR/rate-api $INSTALL_DIR/$BINARY_NAME
           
           # 设置执行权限
           sudo chmod 755 $INSTALL_DIR/$BINARY_NAME
