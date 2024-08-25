@@ -28,3 +28,4 @@ bin/*
 
 chrome-mv3*
 configMihu.json
+.env

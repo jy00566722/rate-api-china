@@ -1,0 +1,111 @@
+name: Go CI/CD
+
+permissions:
+  contents: write
+  discussions: write
+
+on:
+  push:
+    branches: [ main ]
+    tags: [ 'v*' ]
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Go
+      uses: actions/setup-go@v5
+      with:
+        go-version: '1.22'
+
+    - name: Build
+      run: |
+        cd rate-api-go
+        CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -v -o rate-api .      
+
+    - name: Create Release and Upload Asset
+      uses: actions/github-script@v7
+      with:
+        github-token: ${{secrets.GITHUB_TOKEN}}
+        script: |
+          const fs = require('fs');
+          const { owner, repo } = context.repo;
+          const tagName = process.env.GITHUB_REF.replace('refs/tags/', '');
+          const release = await github.rest.repos.createRelease({
+            owner,
+            repo,
+            tag_name: tagName,
+            name: `Release ${tagName}`,
+            draft: false,
+            prerelease: false
+          });
+          
+          const asset = await github.rest.repos.uploadReleaseAsset({
+            owner,
+            repo,
+            release_id: release.data.id,
+            name: `rate-api-${tagName}`,
+            data: fs.readFileSync('./rate-api-go/rate-api')
+          });
+
+    - name: Deploy to Server
+      uses: appleboy/ssh-action@master
+      env:
+        RELEASE_VERSION: ${{ github.ref_name }}
+      with: 
+        host: ${{ secrets.SERVER_HOST }}
+        username: ${{ secrets.SERVER_USERNAME }}
+        key: ${{ secrets.SERVER_SSH_KEY }}
+        envs: RELEASE_VERSION
+        script: |
+          # 设置变量
+          TAG_NAME=$RELEASE_VERSION
+          INSTALL_DIR=/opt/rate-api
+          BINARY_NAME="rate-api-${TAG_NAME}"
+          
+          echo "Deploying version: ${TAG_NAME}"
+          echo "Binary name: ${BINARY_NAME}"
+          
+          # 创建安装目录（如果不存在）
+          sudo mkdir -p $INSTALL_DIR
+          
+          # 下载新版本
+          echo "Downloading from: https://github.com/${{ github.repository }}/releases/download/${TAG_NAME}/${BINARY_NAME}"
+          wget -v "https://github.com/${{ github.repository }}/releases/download/${TAG_NAME}/${BINARY_NAME}"
+          
+          # 检查下载是否成功
+          if [ ! -f "${BINARY_NAME}" ]; then
+            echo "Error: Failed to download ${BINARY_NAME}"
+            exit 1
+          fi
+          
+          # 移动新版本到安装目录并设置执行权限
+          sudo mv $BINARY_NAME $INSTALL_DIR/
+          sudo chmod 755 $INSTALL_DIR/$BINARY_NAME
+          
+          # 确保 rate-api 用户和组存在
+          sudo groupadd -f rate-api
+          sudo useradd -r -g rate-api -s /sbin/nologin rate-api || true
+          
+          # 设置正确的所有权
+          sudo chown -R rate-api:rate-api $INSTALL_DIR
+          
+          # 更新软链接
+          sudo ln -sf $INSTALL_DIR/$BINARY_NAME /usr/local/bin/rate-api
+          sudo chown -h rate-api:rate-api /usr/local/bin/rate-api
+          
+          # 确保日志目录存在并设置正确的权限
+          sudo mkdir -p /var/log/rate-api
+          sudo chown rate-api:rate-api /var/log/rate-api
+          sudo chmod 755 /var/log/rate-api
+          
+          # 重新加载 systemd 配置并重启服务
+          sudo systemctl daemon-reload
+          sudo systemctl restart rate-api.service
+          
+          # 清理旧版本(保留最新的3个版本)
+          cd $INSTALL_DIR
+          ls -t rate-api-* | tail -n +4 | xargs -I {} sudo rm -- {}
