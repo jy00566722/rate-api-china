@@ -74,7 +74,7 @@ jobs:
         target: "/opt/rate-api/"
         strip_components: 1
 
-    - name: Deploy to Server
+    - name: Deploy to Server-1
       uses: appleboy/ssh-action@master
       env:
         RELEASE_VERSION: ${{ github.ref_name }}
