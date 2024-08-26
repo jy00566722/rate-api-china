@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"math/rand"
 	"net/http"
 	"rate/api/globe"
 	"strconv"
@@ -41,10 +42,14 @@ func InitDataFromCFV4() {
 // 从 now-api中请求很少见的货币汇率-这些汇率在google sheets中没有
 func GetRateFromNowApi() {
 	fmt.Println("从now-api中获取数据")
+	//增加随机等待时间 500ms到1500ms
+	randomTime := rand.Intn(1000) + 500
+	time.Sleep(time.Duration(randomTime) * time.Millisecond)
+
 	cu_list := []string{"CUC", "BYR", "ERN", "FKP", "GIP", "HRK", "KPW", "LTL", "LVL", "MNT", "MRO", "SHP", "STD", "SYP", "VEF", "VUV", "WST", "XDR", "ZWL"}
 	// cu_list := []string{"ERN", "FKP", "GIP", "HRK", "KPW", "MNT", "SHP", "SYP", "VUV", "WST", "ZWL"}
 	for _, v := range cu_list {
-		time.Sleep(150 * time.Millisecond)
+		time.Sleep(100 * time.Millisecond)
 		res, err := getDate(v)
 		if err != nil {
 			fmt.Println("未正确获取到汇率:,", v)
@@ -72,6 +77,9 @@ func GetRateFromNowApi() {
 
 // 从 now-api中请求常见的货币汇率
 func GetRateFromNowApiCommon() {
+	//增加随机等待时间 500ms到1500ms
+	randomTime := rand.Intn(1000) + 500
+	time.Sleep(time.Duration(randomTime) * time.Millisecond)
 	fmt.Println("从now-api中获取数据-常见货币")
 	cu_list := []string{
 		"USD",
@@ -133,6 +141,9 @@ func GetRateFromNowApiCommon() {
 // 从google sheets中获取汇率
 func GetRateFromGoogleSheets() {
 	fmt.Println("从google sheets中获取数据-开始")
+	//增加随机等待时间 500ms到1500ms
+	randomTime := rand.Intn(1000) + 500
+	time.Sleep(time.Duration(randomTime) * time.Millisecond)
 	// 发送 HTTP GET 请求
 	resp, err := http.Get("https://docs.google.com/spreadsheets/d/e/2PACX-1vQS4NljENMDBH7xGLQ7OpmogFqm7mnwMg_W6MctPGxfaC0GJbitgFejoRUCAlmo9fh1k75DfXhOeMRN/pub?gid=0&single=true&output=csv")
 	if err != nil {
@@ -241,6 +252,9 @@ func GetRateFromGoogleSheetsUSD() {
 
 // 从er-api获取汇率 这个api每天早上8点更新(东八区)
 func GetRateFromErApi() {
+	//增加随机等待时间 500ms到1500ms
+	randomTime := rand.Intn(1000) + 500
+	time.Sleep(time.Duration(randomTime) * time.Millisecond)
 	data, err := getExchangData()
 	if err != nil {
 		fmt.Println("从er-api获取汇率时出错:", err)
@@ -321,6 +335,9 @@ func getDate(tcur string) (globe.Res, error) {
 
 // 把汇率发送到cloudflare中备份
 func SendRateToCloudflare() {
+	//在这里增加随机等待时间,1-6秒,因为同时运行许多服务时，不要同时去操作cloudflare上的work
+	randomTime := rand.Intn(6) + 1
+	time.Sleep(time.Duration(randomTime) * time.Second)
 	normalMap := make(map[string]interface{})
 	globe.V4CruuencyMap.Range(func(key, value interface{}) bool {
 		strKey, ok := key.(string) // 确保键的类型是 string

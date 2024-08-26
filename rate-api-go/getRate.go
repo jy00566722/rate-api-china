@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"math/rand"
 	"rate/api/globe"
 	"rate/api/v3rate"
 	"sync"
@@ -75,6 +76,10 @@ func InitDateFromCf() error {
 
 // 定时把每天pop页面的打开数据保存进数据库
 func CronSavePopTimesToDb() {
+	//增加随机等待时间 500ms到3000ms
+	randomTime := rand.Intn(3000) + 500
+	time.Sleep(time.Duration(randomTime) * time.Millisecond)
+
 	//连接mongodb
 	// var ctx = context.Background()
 	// var db, err = qmgo.Open(ctx, &qmgo.Config{Uri: "mongodb://rate:rate1234@t.deey.top:57890/?authSource=rate", Database: "rate", Coll: "pop_times"})

@@ -22,8 +22,8 @@ func MyCron() {
 		cron_nowapi(c)
 	}
 
-	c.AddFunc("20 5,35 * * * *", func() {
-		v4rate.SendRateToCloudflare() //备份数据到cloudflare,每5分钟和35分钟执行一次
+	c.AddFunc("20 5,25,35,45 * * * *", func() {
+		v4rate.SendRateToCloudflare() //备份数据到cloudflare,每5分钟25分钟35分钟45分钟执行一次
 	})
 	c.Start()
 	fmt.Println("定时任务启动成功!....")
