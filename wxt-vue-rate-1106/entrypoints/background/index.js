@@ -4,7 +4,7 @@ export default defineBackground(() => {
     console.log('%c%s', 'color: #ff0000; background: #ffff00', (new Date()).toLocaleString('zh-CN', { hour12: false }))
 
       const get_rate_v3=async (my_id,version,cache)=>{
-        let url = 'https://rate.lizudi.top/v3/rate?my_id='+my_id+'&version='+version
+        let url = 'https://rate.lizudi.top/v3/rate?my_id='+my_id+'&version='+version + '&is360=yes'
         if(cache === 'noCache'){
           url = url + '&noCache=yes'
         }
