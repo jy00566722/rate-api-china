@@ -1,0 +1,14 @@
+app:
+  name: "NoFree Service"
+  port: 8080
+  jwt_secret: "mimihfjhe45886hhjf2jnje9feoo2ijmnfe09"
+
+mysql:
+  host: "1.qu2.top"
+  port: 3306
+  database: "no_free"
+  username: "root"
+  password: "aabbcc1234"
+  max_idle_conns: 10
+  max_open_conns: 100
+  conn_max_lifetime: 3600 # seconds
