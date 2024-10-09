@@ -83,18 +83,3 @@ func (s *membershipService) PurchaseMembership(ctx context.Context, userID uint,
 func (s *membershipService) GetMembershipPlans(ctx context.Context) ([]model.MembershipPlan, error) {
 	return s.planRepo.GetActivePlans(ctx)
 }
-
-func getLevelName(level int) string {
-	switch level {
-	case model.MemberLevelFree:
-		return "免费会员"
-	case model.MemberLevelNormal:
-		return "普通会员"
-	case model.MemberLevelPremium:
-		return "高级会员"
-	case model.MemberLevelUnlimited:
-		return "永久会员"
-	default:
-		return "未知等级"
-	}
-}

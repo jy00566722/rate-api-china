@@ -7,7 +7,13 @@ import (
 
 	"mihu007/internal/model"
 	"mihu007/internal/repository"
+	"mihu007/pkg/captcha"
+	"mihu007/pkg/email"
+	"mihu007/pkg/sms"
 	"mihu007/pkg/utils"
+	"mihu007/pkg/wechat"
+
+	"github.com/mojocn/base64Captcha"
 )
 
 type UserService interface {
@@ -15,6 +21,10 @@ type UserService interface {
 	Login(ctx context.Context, req model.LoginRequest) (*model.User, string, error)
 	ResetPassword(ctx context.Context, req model.PasswordResetRequest) error
 	SendPasswordResetVerifyCode(ctx context.Context, req model.PasswordResetVerifyRequest) error
+	WechatLogin(ctx context.Context, code string) (*model.User, string, error)
+	WechatRegister(ctx context.Context, wechatInfo model.WechatInfo) (*model.User, error)
+	GenerateCaptcha(ctx context.Context) (string, string, string, error)
+	VerifyCaptcha(ctx context.Context, captchaID string, captchaCode string) (bool, error)
 }
 
 type userService struct {
@@ -22,6 +32,10 @@ type userService struct {
 	membershipRepo repository.MembershipRepository
 	verifyCodeRepo repository.VerifyCodeRepository
 	jwtUtil        utils.JWTUtil
+	wechatClient   wechat.WechatClient
+	captchaStore   captcha.CaptchaStore
+	emailSender    email.EmailSender
+	smsSender      sms.SMSSender
 }
 
 func NewUserService(
@@ -29,12 +43,20 @@ func NewUserService(
 	membershipRepo repository.MembershipRepository,
 	verifyCodeRepo repository.VerifyCodeRepository,
 	jwtUtil utils.JWTUtil,
+	wechatClient wechat.WechatClient,
+	captchaStore captcha.CaptchaStore,
+	emailSender email.EmailSender,
+	smsSender sms.SMSSender,
 ) UserService {
 	return &userService{
 		userRepo:       userRepo,
 		membershipRepo: membershipRepo,
 		verifyCodeRepo: verifyCodeRepo,
 		jwtUtil:        jwtUtil,
+		wechatClient:   wechatClient,
+		captchaStore:   captchaStore,
+		emailSender:    emailSender,
+		smsSender:      smsSender,
 	}
 }
 
@@ -169,7 +191,7 @@ func (s *userService) ResetPassword(ctx context.Context, req model.PasswordReset
 	}
 
 	// 验证验证码
-	valid, err := s.verifyCodeRepo.Verify(ctx, user.ID, req.VerifyCode)
+	valid, err := s.verifyCodeRepo.Verify(ctx, user.Username, req.VerifyCode)
 	if err != nil || !valid {
 		return errors.New("invalid verify code")
 	}
@@ -202,7 +224,7 @@ func (s *userService) SendPasswordResetVerifyCode(ctx context.Context, req model
 	code := utils.GenerateVerifyCode(6)
 
 	// 存储验证码
-	err = s.verifyCodeRepo.Save(ctx, user.ID, code, time.Now().Add(15*time.Minute))
+	err = s.verifyCodeRepo.Save(ctx, user.Username, code, time.Now().Add(15*time.Minute))
 	if err != nil {
 		return err
 	}
@@ -213,4 +235,25 @@ func (s *userService) SendPasswordResetVerifyCode(ctx context.Context, req model
 	} else {
 		return s.smsSender.SendPasswordResetCode(req.Phone, code)
 	}
+}
+
+func (s *userService) GenerateCaptcha(ctx context.Context) (string, string, string, error) {
+	driver := base64Captcha.NewDriverDigit(80, 240, 6, 0.7, 80)
+	captcha := base64Captcha.NewCaptcha(driver, s.captchaStore.Get())
+	id, b64s, answer, err := captcha.Generate()
+	return id, b64s, answer, err
+}
+
+func (s *userService) VerifyCaptcha(ctx context.Context, captchaID string, captchaCode string) (bool, error) {
+	return s.captchaStore.Verify(captchaID, captchaCode)
+}
+
+func (s *userService) WechatLogin(ctx context.Context, code string) (*model.User, string, error) {
+	// 在此实现微信登录的逻辑
+	return nil, "", nil // 临时返回nil、空字符串和nil，请根据实际需求修改
+}
+
+func (s *userService) WechatRegister(ctx context.Context, wechatInfo model.WechatInfo) (*model.User, error) {
+	// 在此实现微信注册的逻辑
+	return nil, nil // 临时返回nil和nil，请根据实际需求修改
 }

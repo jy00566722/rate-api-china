@@ -24,3 +24,11 @@ jwt:
 
 payment:
   order_expire: 5m
+
+wechat:
+  app_id: your_app_id
+  app_secret: your_app_secret
+
+captcha:
+  expiration: 5m
+  length: 6

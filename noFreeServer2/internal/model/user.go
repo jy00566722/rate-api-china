@@ -13,6 +13,8 @@ type User struct {
 	Password     string `gorm:"not null"`
 	RegisterType string `gorm:"not null"`  // phone, email, wechat
 	Status       int    `gorm:"default:1"` // 0: disabled, 1: active
+	Nickname     string
+	AvatarURL    string
 }
 
 type LoginRequest struct {
@@ -40,4 +42,11 @@ type PasswordResetRequest struct {
 type PasswordResetVerifyRequest struct {
 	Email string `json:"email,omitempty"`
 	Phone string `json:"phone,omitempty"`
+}
+
+type WechatInfo struct {
+	OpenID    string
+	UnionID   string
+	Nickname  string
+	AvatarURL string
 }
