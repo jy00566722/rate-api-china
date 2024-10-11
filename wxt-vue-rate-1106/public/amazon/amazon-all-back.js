@@ -75,23 +75,23 @@ try{
 
 
 let rate = 0
-let amazon = []
+let amazon_nodes = []
 
 //总回调
 const all=function(){
     //console.log('总回调启动');
-    chrome.storage.local.get(["my_rate",'amazon','color'],function(result){
+    chrome.storage.local.get(["my_rate",'amazon_nodes','color'],function(result){
         rate = result.my_rate[`rate_${country}`];
-        amazon = result.amazon
+        amazon_nodes = result.amazon_nodes
         if(result.color){
             color = result.color
         }
-        foreach_nodes(amazon)
+        foreach_nodes(amazon_nodes)
     //特别价格处理
-    // let e1 = document.querySelectorAll('span[class="a-offscreen"]')
-    //     if(e1[0]){
-    //         t1(e1)
-    //     }
+    let e1 = document.querySelectorAll('span[class="a-offscreen"]')
+        if(e1[0]){
+            t1(e1)
+        }
     })
 }
 
@@ -99,7 +99,6 @@ let rg = /^\$(\d{1,3}\,){0,1}\d{1,3}\.\d{2}( \- \$(\d{1,3}\,){0,1}\d{1,3}\.\d{2}
 
 //计算人民币
 const  getRmb = function(s){
-
         if(!s.includes('-')){
             return getRmb_of(s)
         }else{
@@ -157,15 +156,10 @@ const getRmb_of = function(s){
 const foreach_nodes = function(node_all){
 
     for(let node of node_all){
-        let list = document.querySelectorAll(node[0])
-        if(list[0]){
-           
-            if(node[1] === 1){
-                changePriceOfTheOneNode(list,node[2])
-            }
-            if(node[1] === 2){
-                offscreenFunc(list,node[2])
-            }
+        let a = document.querySelectorAll(`${node[0]}[${node[1]}="${node[2]}"]`)
+
+        if(a[0]){
+            changePriceOfTheOneNode(a)
         }
     }
 
@@ -173,23 +167,21 @@ const foreach_nodes = function(node_all){
 
 const changePriceOfTheOneNode=function(nodes){
     nodes.forEach(e=>{
-        //获取元素中的所有innerText
-        let c=e.textContent.trim()
-        //判断e的子元素中的最后一个元素是否为sub元素，如果不是sub元素则进行价格转换,或者e没有子元素则进行价格转换
-        if(!e.children.length || (e.children.length && e.children[e.children.length-1].tagName != 'SUB')){
+        let c=e.innerHTML.trim()
+        if((!e.nextElementSibling) || (e.nextElementSibling && e.nextElementSibling.tagName != 'SUB')){
             let rmb = getRmb(c)
             if(rmb){
                 let b = document.createElement('sub')
-                b.setAttribute('translate', 'no');
-                b.style.color = color
-                b.innerText = '¥'+rmb
-                e.appendChild(b)
+                    b.setAttribute('translate', 'no');
+                    b.style.color = color
+                    b.innerText = '¥'+rmb
+                    e.after(b)
             }
         }
     })
 }
 
-const offscreenFunc=function(nodes){
+const t1=function(nodes){
     nodes.forEach(x=>{
         let s = x.innerHTML.trim();
         if(s === 'price'){//非常特别的价格
@@ -227,19 +219,6 @@ const offscreenFunc=function(nodes){
                  }
                 
                 }
-                //如果下一个兄弟元素中只有文本，则进行价格转换  
-             }else if(x.nextElementSibling && x.nextElementSibling.childNodes?.length === 1 && x.nextElementSibling.childNodes[0].nodeType === 3){
-                let rmb = getRmb(s);
-                if(rmb){
-                    let b = document.createElement('sub');
-                    b.setAttribute('translate', 'no');
-                    b.style.color = color;
-                    b.innerText = '¥'+rmb;
-                    x.nextElementSibling.appendChild(b);
-                }
-             }else{
-                //打印出元素
-                // console.log(x.nextElementSibling)
              }
         }
 

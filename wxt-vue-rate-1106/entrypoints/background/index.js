@@ -111,7 +111,8 @@ export default defineBackground(() => {
       
       
       const get_all_nodes_and_data = async (cache)=>{
-        let url = 'https://rate.lizudi.top/v2/all_nodes_and_date'
+        // let url = 'https://rate.lizudi.top/v2/all_nodes_and_date'
+        let url = 'http://localhost:8001/v2/all_nodes_and_date'
         if (cache === 'noCache'){
           url = url + '?noCache=yes'
         }
