@@ -13,8 +13,8 @@ type MembershipRepository interface {
 	Create(ctx context.Context, membership *model.Membership) error
 	GetByUserID(ctx context.Context, userID uint) (*model.Membership, error)
 	Update(ctx context.Context, membership *model.Membership) error
-	GetActiveMembershipPlan(ctx context.Context, level int) (*model.MembershipPlan, error)
-	GetAllActiveMembershipPlans(ctx context.Context) ([]model.MembershipPlan, error)
+	// GetActiveMembershipPlan(ctx context.Context, level int) (*model.MembershipPlan, error)
+	// GetAllActiveMembershipPlans(ctx context.Context) ([]model.MembershipPlan, error)
 }
 
 type membershipRepository struct {
@@ -42,23 +42,4 @@ func (r *membershipRepository) GetByUserID(ctx context.Context, userID uint) (*m
 
 func (r *membershipRepository) Update(ctx context.Context, membership *model.Membership) error {
 	return r.db.WithContext(ctx).Save(membership).Error
-}
-
-func (r *membershipRepository) GetActiveMembershipPlan(ctx context.Context, level int) (*model.MembershipPlan, error) {
-	var plan model.MembershipPlan
-	if err := r.db.WithContext(ctx).Where("level = ? AND status = 1", level).First(&plan).Error; err != nil {
-		if errors.Is(err, gorm.ErrRecordNotFound) {
-			return nil, ErrMembershipPlanNotFound
-		}
-		return nil, err
-	}
-	return &plan, nil
-}
-
-func (r *membershipRepository) GetAllActiveMembershipPlans(ctx context.Context) ([]model.MembershipPlan, error) {
-	var plans []model.MembershipPlan
-	if err := r.db.WithContext(ctx).Where("status = 1").Order("level").Find(&plans).Error; err != nil {
-		return nil, err
-	}
-	return plans, nil
 }

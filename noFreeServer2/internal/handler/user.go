@@ -84,8 +84,8 @@ func (h *UserHandler) ResetPassword(c *gin.Context) {
 	c.JSON(200, gin.H{"message": "password reset successfully"})
 }
 
-// 需要新增或修改的处理函数
-func (h *UserHandler) WechatLogin(c *gin.Context)
-func (h *UserHandler) WechatRegister(c *gin.Context)
-func (h *UserHandler) GenerateCaptcha(c *gin.Context)
-func (h *UserHandler) VerifyCaptcha(c *gin.Context)
+// // 需要新增或修改的处理函数
+// func (h *UserHandler) WechatLogin(c *gin.Context)
+// func (h *UserHandler) WechatRegister(c *gin.Context)
+// func (h *UserHandler) GenerateCaptcha(c *gin.Context)
+// func (h *UserHandler) VerifyCaptcha(c *gin.Context)
