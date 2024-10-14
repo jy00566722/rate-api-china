@@ -214,6 +214,22 @@ const offscreenFunc=function(nodes){
 
 
 
+        }else if(s === ""){ //a-offscreen中是空格,主价格就是这样的特别情况 <span class="a-offscreen"> </span>
+            let next = x.nextElementSibling
+            let s = next.textContent.trim()
+            if(next){
+                if(!next.lastElementChild.innerHTML.includes('¥')){
+                    let rmb = getRmb(s);
+                    if(rmb){
+                        let b = document.createElement('sub');
+                        b.setAttribute('translate', 'no');
+                        b.style.color = color;
+                        b.innerText = '¥'+rmb;
+                        next.appendChild(b);
+                    }
+                   
+                   }
+            }   
         }else{
             if(x.nextElementSibling&&x.nextElementSibling.lastElementChild){
                 if(!x.nextElementSibling.lastElementChild.innerHTML.includes('¥')){
