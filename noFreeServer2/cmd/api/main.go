@@ -51,9 +51,8 @@ func main() {
 	authorized := r.Group("/api/v1")
 	authorized.Use(middleware.AuthMiddleware(jwtUtil))
 	{
-		authorized.GET("/user/info", userHandler.GetInfo)
+		authorized.GET("/user/info", userHandler.GetUserInfo)
 		authorized.POST("/device/register", deviceHandler.Register)
-		authorized.GET("/membership/info", membershipHandler.GetInfo)
 		authorized.GET("/membership/info", membershipHandler.GetMembershipInfo)
 		authorized.GET("/membership/plans", membershipHandler.GetMembershipPlans)
 		authorized.POST("/membership/purchase", membershipHandler.PurchaseMembership)

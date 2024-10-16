@@ -116,10 +116,10 @@ func (s *userService) Register(ctx context.Context, req model.RegisterRequest) (
 
 	// 6. 创建免费会员资格
 	membership := &model.Membership{
-		UserID:      user.ID,
-		Level:       model.MemberLevelFree,
-		ExpireAt:    time.Now().AddDate(0, 1, 0), // 一个月有效期
-		DeviceLimit: 1,                           // 免费会员只能使用1个设备
+		UserID:   user.ID,
+		Level:    model.MemberLevelFree,
+		ExpireAt: time.Now().AddDate(0, 1, 0), // 一个月有效期
+		// 免费会员只能使用1个设备
 	}
 	err = s.membershipRepo.Create(ctx, membership)
 	if err != nil {
