@@ -27,8 +27,8 @@ export default defineConfig({
   }),
   manifest: {
     name: '汇率转换',
-    version: '3.7.1.0',
-    version_name: "3.7.1.0",
+    version: '3.7.2.0',
+    version_name: "3.7.2.0",
     description: '此插件为跨境卖家设计,用于显示跨境平台前端页面上商品价格对应的人民币价格。同时也提供手动输入数字转换货币的功能,货币种类共有163个',
     icons: {
       16: 'icons/16.png',

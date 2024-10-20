@@ -322,6 +322,7 @@ func allNodes() interface{} {
 	all_data["aliexpress_nodes"] = viper.Get("aliexpress_nodes")
 	// all_data["aliexpress_special_price"] = viper.Get("aliexpress_special_price")
 	all_data["amazon_nodes"] = viper.Get("amazon_nodes")
+	all_data["amazon"] = viper.Get("amazon") //新版本的amazon节点
 	all_data["feedback_flag"] = viper.GetInt("feedback")
 	all_data["lazada_main_price_nodes"] = viper.Get("lazada_main_price_nodes")
 	all_data["lazada_nodes"] = viper.Get("lazada_nodes")

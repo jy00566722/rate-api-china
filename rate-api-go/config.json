@@ -1,11 +1,11 @@
 {
   "env": "release",
-  "mongodbDns":"mongodb://root:aabbcc1234@rate-mongo:27017/",
+  "mongodbDns":"mongodb://root:aabbcc1234@1.qu2.top:27017/",
   "cache": {
     "expire": 300
   },
   "dataFrom": "google",
-  "DataServer": "No1-2qu2-docker",
+  "DataServer": "localhost-Macos",
   "enableLogs":"false",
   "periodInMinutes":6,
   "feedback": 0,
@@ -19,6 +19,13 @@
 ["div","item-card-special__current-price item-card-special__current-price--special"],
 ["span","tKMsYD sgV6O0"],
 ["span","K6jv6V"]
+  ],
+  "amazon": [
+    ["span.a-offscreen",2],
+    ["td span.description",1],
+    ["span[class='a-color-base']",1],
+    ["span.Price__price__LKpWT span span",1],
+    ["span._cDEzb_p13n-sc-price_3mJ9Z",1]
   ],
   "amazon_nodes": [
         [
@@ -40,11 +47,6 @@
         "span",
         "class",
         "_p13n-zg-list-carousel-desktop_price_p13n-sc-price__3mJ9Z"
-    ],
-    [
-        "span",
-        "aria-hidden",
-        "true"
     ],
     [
         "span",
@@ -111,7 +113,7 @@
      ["div.U-S0j",1],
     ["div.multi--price-sale--U-S0jtj",1],
     ["div.es--wrap--1Hlfkoj.notranslate",1],
-    ["div.price--current--H7sGzqb.product-price-current",1,"main-price"],
+    [".price--currentPriceText--V8_y_b5.pdp-comp-price-current.product-price-value",1,"main-price"],
     ["div.item-price.line-limit-length",1],
     ["div.snow-price_SnowPrice__mainM__1cmks6",1]
 
@@ -215,13 +217,13 @@
   ],
   "ozon_nodes": [
     [
-        "div.c3013-a0 span.c3013-a1.tsBodyAccent400Small.c3013-c0",
+        "div.c3017-a0 span.c3017-a1.tsBodyAccent400Small.c3017-c0",
         1
     ],
-    ["span.c3013-a1.tsHeadline500Medium.c3013-c0",1],
-    [".mm5_27 .m5m_27.mm4_27 .nm_27.mm7_27",1]
+    ["span.c3017-a1.tsHeadline500Medium.c3017-c0",1],
+    [".rm5_27.r3m_27",1]
   ],
-  "ozon_nodeStr": ".ga111-a2.tsBodyControl400Small",
+  "ozon_nodeStr": ".ga113-a2.tsBodyControl400Small",
   "gmarket_nodes": [
     [
       "span",
@@ -282,7 +284,7 @@
     ],
     ["div._2myxWHLi._34JT516r",3,[{"styleName":"lineHeight","styleValue":"normal"}]],
     [
-        "div._15o2bYpT div._3cZnvUvE",
+        "div._1vkz0rqG",
         2,[{"styleName":"lineHeight","styleValue":"normal"}]
     ],
     [
@@ -370,7 +372,11 @@
   [".product_desc .price_box .amount",1]
 ],
     "message":[
-      {"index":10,"context":"V3.7.0发布:POP页增加100USD=xxxCNY的显示,设置中可关闭","main":true,"type":"warning","time":"2024-08-17"},
+      {"index":14,"context":"菲律宾汇率PHP已修复","main":false,"type":"warning","time":"2024-09-09"},
+      {"index":13,"context":"菲律宾汇率PHP已修复-上游汇率供应API出现问题","main":false,"type":"warning","time":"2024-09-09"},
+       {"index":12,"context":"菲律宾汇率PHP正在修复","main":false,"type":"warning","time":"2024-09-09"},
+      {"index":11,"context":"V3.7.1发布:支持walmart页面价格转换","main":false,"type":"warning","time":"2024-08-23"},
+      {"index":10,"context":"V3.7.0发布:POP页增加100USD=xxxCNY的显示,设置中可关闭","main":false,"type":"warning","time":"2024-08-17"},
       {"index":9,"context":"汇率故障已经修复","main":false,"type":"warning","time":"2024-08-17"}
   ]
 }
