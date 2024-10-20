@@ -1,7 +1,5 @@
 server:
   port: 8080
-  read_timeout: 10s
-  write_timeout: 10s
 
 database:
   driver: mysql
@@ -17,17 +15,17 @@ redis:
   password: ""
 
 jwt:
-  web_secret: your-web-secret-key
+  web_secret: maimamihoue
   web_expire: 24h
-  plugin_secret: your-plugin-secret-key
+  plugin_secret: shahoude
   plugin_expire: 720h  # 30天，考虑到插件离线使用
 
 payment:
   order_expire: 5m
 
 wechat:
-  app_id: your_app_id
-  app_secret: your_app_secret
+  app_id: wxf8b4f85f3a794e77
+  app_secret: 5c96fac3c8774d0d279b407f9861ae22
 
 captcha:
   expiration: 5m
