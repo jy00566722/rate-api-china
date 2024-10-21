@@ -20,11 +20,11 @@ type JWTClaims struct {
 
 type jwtUtil struct {
 	secretKey         string
-	tokenDuration     time.Duration
-	tempTokenDuration time.Duration
+	tokenDuration     string
+	tempTokenDuration string
 }
 
-func NewJWTUtil(secretKey string, tokenDuration time.Duration, tempTokenDuration time.Duration) JWTUtil {
+func NewJWTUtil(secretKey string, tokenDuration string, tempTokenDuration string) JWTUtil {
 	return &jwtUtil{
 		secretKey:         secretKey,
 		tokenDuration:     tokenDuration,
@@ -36,8 +36,8 @@ func (j *jwtUtil) GenerateToken(userID uint) (string, error) {
 	claims := JWTClaims{
 		UserID: userID,
 		StandardClaims: jwt.StandardClaims{
-			ExpiresAt: time.Now().Add(j.tokenDuration).Unix(),
-			IssuedAt:  time.Now().Unix(),
+
+			IssuedAt: time.Now().Unix(),
 		},
 	}
 
@@ -65,8 +65,8 @@ func (j *jwtUtil) GenerateTemporaryToken(userID uint) (string, error) {
 	claims := JWTClaims{
 		UserID: userID,
 		StandardClaims: jwt.StandardClaims{
-			ExpiresAt: time.Now().Add(j.tempTokenDuration).Unix(),
-			IssuedAt:  time.Now().Unix(),
+
+			IssuedAt: time.Now().Unix(),
 		},
 	}
 

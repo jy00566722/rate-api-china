@@ -3,6 +3,11 @@ package main
 import (
 	"fmt"
 	"mihu007/config"
+	"mihu007/internal/handler"
+	"mihu007/internal/repository"
+	"mihu007/internal/service"
+	"mihu007/pkg/database"
+	"mihu007/pkg/utils"
 
 	"github.com/gin-gonic/gin"
 )
@@ -13,21 +18,21 @@ func main() {
 	fmt.Println(cfg)
 
 	// 初始化数据库
-	// db := database.InitMySQL(cfg.Database)
+	db := database.InitDB(&cfg.Database)
 
 	// 初始化存储层
-	// userRepo := repository.NewUserRepository(db)
+	userRepo := repository.NewUserRepository(db)
 	// deviceRepo := repository.NewDeviceRepository(db)
 	// membershipRepo := repository.NewMembershipRepository(db)
 
 	// // 初始化服务层
-	// jwtUtil := utils.NewJWTUtil(cfg.JWT)
-	// userService := service.NewUserService(userRepo, jwtUtil)
+	jwtUtil := utils.NewJWTUtil(cfg.JWT.WebSecret, cfg.JWT.WebExpire, cfg.JWT.PluginSecret)
+	userService := service.NewUserService(userRepo, jwtUtil)
 	// deviceService := service.NewDeviceService(deviceRepo)
 	// membershipService := service.NewMembershipService(membershipRepo)
 
 	// // 初始化处理器
-	// userHandler := handler.NewUserHandler(userService)
+	userHandler := handler.NewUserHandler(userService)
 	// deviceHandler := handler.NewDeviceHandler(deviceService)
 	// membershipHandler := handler.NewMembershipHandler(membershipService)
 
