@@ -578,6 +578,21 @@
                         text:'https://www.walmart.com/',
                         url:'https://www.walmart.com/'
                     }]
+                },
+                {
+                    site:"YandexMarket",
+                    permissions: ["scripting"],
+                    origins: [
+                        "https://market.yandex.ru/*",
+                    ],
+                    js: ["js/Underscore.js", "yandexmarket/yandexmarket.js"],
+                    siteName:"YandexMarket",
+                    url:"https://market.yandex.ru/",
+                    status:'',
+                    goUrl:[{
+                        text:'https://market.yandex.ru/',
+                        url:'https://market.yandex.ru/'
+                    }]
                 }
 
             ])  

@@ -33,7 +33,7 @@
         </div>
       <div class="container mt-3 pt-4  has-text-centered box">
         <div class="tag  is-size-6 mb-2">本次更新重点</div><br>
-        <div class="tag is-danger is-size-6 mb-2">增加wildberries和coupang的页面价格转换</div><br>
+        <div class="tag is-danger is-size-6 mb-2">增加yandex的页面价格转换</div><br>
         <div class="tag is-info is-size-6 mb-5">汇率优化:以下主流货币的汇率来自<span class="tag is-warning is-medium">中国银行实时数据</span>
         </div>
         <div class="mid1">
