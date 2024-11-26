@@ -340,6 +340,7 @@ func allNodes() interface{} {
 	all_data["kream_nodes"] = viper.Get("kream_nodes")
 	all_data["mkd_nodes"] = viper.Get("mkd_nodes")
 	all_data["wildberries"] = viper.Get("wildberries")
+	all_data["yandexmarket"] = viper.Get("yandexmarket")
 	all_data["coupang"] = viper.Get("coupang")
 	all_data["walmart"] = viper.Get("walmart")
 	all_data["message"] = viper.Get("message")
