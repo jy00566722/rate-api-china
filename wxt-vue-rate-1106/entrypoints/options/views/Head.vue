@@ -6,7 +6,7 @@
               汇率转换 <span class="is-size-6 tag is-link p-1">{{version}}</span>
             </h1>
             <h3 class="subtitle">
-                支持平台:Amazon / Lazada / Shopee / Qoo10.jp / Gmarket / Temu / WowmaJp / Rakuten / Aliexpress / Ozon / Vinted / 美客多 / Kream / Wildberries / Coupang /
+                支持平台:Amazon / Lazada / Shopee / Qoo10.jp / Gmarket / Temu / WowmaJp / Rakuten / Aliexpress / Ozon / Vinted / 美客多 / Kream / Wildberries / Coupang / Yandex
               </h3>
             <h3 class="subtitle">
                 问题及建议点此
